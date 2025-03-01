@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openpagesConfiguration xmlFormatVersion="1.31">
+    <systemInformation name="opapp"
+                       retrievalDate="Fri Feb 28 08:09:16 EST 2025"
+                       openpages="11.0.0.2 (Build: 9.0.0.2-99 2024/03/11 13:57:08)"
+                       systemAdminMode="false"/>
+    <systemAdminMode enabled="false"/>
+
+    <queryDefinitions
+                explicitListing="false">
+        <queryDefinition
+                    name="Completed Assessments"
+                    description=""
+                    type="System"
+                    visibility="Public"
+                    contentType="CompliancePlan"
+                    checkAcl="Denied"
+                    suppliedByVendor="false"
+                    expression=""
+                    honorPrimaryAssociation="false"
+                    lastModifiedBy="OpenPagesAdministrator"
+                    creator="OpenPagesAdministrator"
+                    lastModifiedOn="Mon Jan 06 04:24:10 EST 2025"
+                    creationDate="2024-02-17 02:06:54.0">
+            <criteriaList>
+                <conditions
+                            logicalOperator="and"
+                            contentType="CompliancePlan">
+                    <conditionGroup
+                                logicalOperator="or"
+                                not="false">
+                        <condition
+                                    bundleType="RCM-ComPlan"
+                                    propertyType="Review Status"
+                                    searchOperator="in"
+                                    searchType="In Condition"
+                                    label="1"
+                                    not="false">
+                            <searchValues>
+                                <searchValue
+                                            searchConditionValue="Complete"/>
+                            </searchValues>
+                        </condition>
+                    </conditionGroup>
+                </conditions>
+            </criteriaList>
+        </queryDefinition>
+        <queryDefinition
+                    name="Assessment Not Determined"
+                    description=""
+                    type="System"
+                    visibility="Public"
+                    contentType="OblEval"
+                    checkAcl="Denied"
+                    suppliedByVendor="false"
+                    expression=""
+                    honorPrimaryAssociation="false"
+                    lastModifiedBy="wxgov"
+                    creator="wxgov"
+                    lastModifiedOn="Mon Jan 06 04:24:09 EST 2025"
+                    creationDate="2024-05-09 06:14:13.0">
+            <criteriaList>
+                <conditions
+                            logicalOperator="and"
+                            contentType="OblEval">
+                    <conditionGroup
+                                logicalOperator="or"
+                                not="false">
+                        <condition
+                                    bundleType="watsonx-ObligationEval-Shared"
+                                    propertyType="Assessment Result"
+                                    searchOperator="in"
+                                    searchType="In Condition"
+                                    label="1"
+                                    not="false">
+                            <searchValues>
+                                <searchValue
+                                            searchConditionValue="Not Determined"/>
+                            </searchValues>
+                        </condition>
+                    </conditionGroup>
+                </conditions>
+            </criteriaList>
+        </queryDefinition>
+        <queryDefinition
+                    name="Assessment Met"
+                    description=""
+                    type="System"
+                    visibility="Public"
+                    contentType="OblEval"
+                    checkAcl="Denied"
+                    suppliedByVendor="false"
+                    expression=""
+                    honorPrimaryAssociation="false"
+                    lastModifiedBy="wxgov"
+                    creator="wxgov"
+                    lastModifiedOn="Mon Jan 06 04:24:09 EST 2025"
+                    creationDate="2024-05-09 06:14:42.0">
+            <criteriaList>
+                <conditions
+                            logicalOperator="and"
+                            contentType="OblEval">
+                    <conditionGroup
+                                logicalOperator="or"
+                                not="false">
+                        <condition
+                                    bundleType="watsonx-ObligationEval-Shared"
+                                    propertyType="Assessment Result"
+                                    searchOperator="in"
+                                    searchType="In Condition"
+                                    label="1"
+                                    not="false">
+                            <searchValues>
+                                <searchValue
+                                            searchConditionValue="Met"/>
+                            </searchValues>
+                        </condition>
+                    </conditionGroup>
+                </conditions>
+            </criteriaList>
+        </queryDefinition>
+        <queryDefinition
+                    name="Assessment Not Met"
+                    description=""
+                    type="System"
+                    visibility="Public"
+                    contentType="OblEval"
+                    checkAcl="Denied"
+                    suppliedByVendor="false"
+                    expression=""
+                    honorPrimaryAssociation="false"
+                    lastModifiedBy="wxgov"
+                    creator="wxgov"
+                    lastModifiedOn="Mon Jan 06 04:24:09 EST 2025"
+                    creationDate="2024-05-09 06:29:19.0">
+            <criteriaList>
+                <conditions
+                            logicalOperator="and"
+                            contentType="OblEval">
+                    <conditionGroup
+                                logicalOperator="or"
+                                not="false">
+                        <condition
+                                    bundleType="watsonx-ObligationEval-Shared"
+                                    propertyType="Assessment Result"
+                                    searchOperator="in"
+                                    searchType="In Condition"
+                                    label="1"
+                                    not="false">
+                            <searchValues>
+                                <searchValue
+                                            searchConditionValue="Not Met"/>
+                            </searchValues>
+                        </condition>
+                    </conditionGroup>
+                </conditions>
+            </criteriaList>
+        </queryDefinition>
+        <queryDefinition
+                    name="Library Compliance Plans"
+                    description=""
+                    type="System"
+                    visibility="Public"
+                    contentType="CompliancePlan"
+                    checkAcl="Denied"
+                    suppliedByVendor="false"
+                    expression=""
+                    honorPrimaryAssociation="false"
+                    lastModifiedBy="OpenPagesAdministrator"
+                    creator="OpenPagesAdministrator"
+                    lastModifiedOn="Mon Jan 06 04:24:10 EST 2025"
+                    creationDate="2024-07-22 18:32:59.0">
+            <criteriaList>
+                <conditions
+                            logicalOperator="and"
+                            contentType="CompliancePlan">
+                    <conditionGroup
+                                logicalOperator="or"
+                                not="false">
+                        <condition
+                                    bundleType="RCM-ComPlan"
+                                    propertyType="Type"
+                                    searchOperator="in"
+                                    searchType="In Condition"
+                                    label="1"
+                                    not="false">
+                            <searchValues>
+                                <searchValue
+                                            searchConditionValue="Library"/>
+                            </searchValues>
+                        </condition>
+                    </conditionGroup>
+                </conditions>
+            </criteriaList>
+        </queryDefinition>
+        <queryDefinition
+                    name="Assessable Compliance Plans"
+                    description=""
+                    type="System"
+                    visibility="Public"
+                    contentType="CompliancePlan"
+                    checkAcl="Denied"
+                    suppliedByVendor="false"
+                    expression=""
+                    honorPrimaryAssociation="false"
+                    lastModifiedBy="OpenPagesAdministrator"
+                    creator="OpenPagesAdministrator"
+                    lastModifiedOn="Mon Jan 06 04:24:09 EST 2025"
+                    creationDate="2024-07-22 18:33:40.0">
+            <criteriaList>
+                <conditions
+                            logicalOperator="and"
+                            contentType="CompliancePlan">
+                    <conditionGroup
+                                logicalOperator="or"
+                                not="false">
+                        <condition
+                                    bundleType="RCM-ComPlan"
+                                    propertyType="Type"
+                                    searchOperator="in"
+                                    searchType="In Condition"
+                                    label="1"
+                                    not="false">
+                            <searchValues>
+                                <searchValue
+                                            searchConditionValue="Assessable"/>
+                            </searchValues>
+                        </condition>
+                    </conditionGroup>
+                </conditions>
+            </criteriaList>
+        </queryDefinition>
+        <queryDefinition
+                    name="My Library Compliance Plan"
+                    description=""
+                    type="System"
+                    visibility="Public"
+                    contentType="CompliancePlan"
+                    checkAcl="Denied"
+                    suppliedByVendor="false"
+                    expression=""
+                    honorPrimaryAssociation="false"
+                    lastModifiedBy="wxgov"
+                    creator="OpenPagesAdministrator"
+                    lastModifiedOn="Mon Jan 06 04:24:11 EST 2025"
+                    creationDate="2024-07-23 03:13:54.0">
+            <criteriaList>
+                <conditions
+                            logicalOperator="and"
+                            contentType="CompliancePlan">
+                    <conditionGroup
+                                logicalOperator="or"
+                                not="false">
+                        <conditionGroup
+                                    logicalOperator="and"
+                                    not="false">
+                            <condition
+                                        bundleType="RCM-ComPlan"
+                                        propertyType="Type"
+                                        searchOperator="in"
+                                        searchType="In Condition"
+                                        label="1"
+                                        not="false">
+                                <searchValues>
+                                    <searchValue
+                                                searchConditionValue="Library"/>
+                                </searchValues>
+                            </condition>
+                            <condition
+                                        bundleType="RCM-ComPlan"
+                                        propertyType="CP Owner"
+                                        searchOperator="equalTo"
+                                        searchType="Simple Condition"
+                                        label="2"
+                                        not="false">
+                                <searchValues>
+                                    <searchValue
+                                                searchConditionValue="##{logged in user}##"/>
+                                </searchValues>
+                            </condition>
+                        </conditionGroup>
+                    </conditionGroup>
+                </conditions>
+            </criteriaList>
+        </queryDefinition>
+        <queryDefinition
+                    name="Library Plans - Under Maintenance"
+                    description=""
+                    type="System"
+                    visibility="Public"
+                    contentType="CompliancePlan"
+                    checkAcl="Denied"
+                    suppliedByVendor="false"
+                    expression=""
+                    honorPrimaryAssociation="false"
+                    lastModifiedBy="OpenPagesAdministrator"
+                    creator="OpenPagesAdministrator"
+                    lastModifiedOn="Mon Jan 06 04:24:10 EST 2025"
+                    creationDate="2024-07-24 02:31:21.0">
+            <criteriaList>
+                <conditions
+                            logicalOperator="and"
+                            contentType="CompliancePlan">
+                    <conditionGroup
+                                logicalOperator="or"
+                                not="false">
+                        <conditionGroup
+                                    logicalOperator="and"
+                                    not="false">
+                            <condition
+                                        bundleType="RCM-ComPlan"
+                                        propertyType="Type"
+                                        searchOperator="in"
+                                        searchType="In Condition"
+                                        label="1"
+                                        not="false">
+                                <searchValues>
+                                    <searchValue
+                                                searchConditionValue="Library"/>
+                                </searchValues>
+                            </condition>
+                            <condition
+                                        bundleType="watsonx-CompliancePlan"
+                                        propertyType="Distribution Status"
+                                        searchOperator="in"
+                                        searchType="In Condition"
+                                        label="2"
+                                        not="false">
+                                <searchValues>
+                                    <searchValue
+                                                searchConditionValue="Library Maintenance"/>
+                                </searchValues>
+                            </condition>
+                        </conditionGroup>
+                    </conditionGroup>
+                </conditions>
+            </criteriaList>
+        </queryDefinition>
+        <queryDefinition
+                    name="My Assessable Compliance Plans"
+                    description="My Assessable Compliance Plans"
+                    type="System"
+                    visibility="Public"
+                    contentType="CompliancePlan"
+                    checkAcl="Denied"
+                    suppliedByVendor="false"
+                    expression=""
+                    honorPrimaryAssociation="false"
+                    lastModifiedBy="Lana"
+                    creator="Lana"
+                    lastModifiedOn="Tue Feb 25 07:07:39 EST 2025"
+                    creationDate="2025-02-25 07:07:24.0">
+            <criteriaList>
+                <conditions
+                            logicalOperator="and"
+                            contentType="CompliancePlan">
+                    <conditionGroup
+                                logicalOperator="or"
+                                not="false">
+                        <conditionGroup
+                                    logicalOperator="and"
+                                    not="false">
+                            <condition
+                                        bundleType="RCM-ComPlan"
+                                        propertyType="Type"
+                                        searchOperator="in"
+                                        searchType="In Condition"
+                                        label="1"
+                                        not="false">
+                                <searchValues>
+                                    <searchValue
+                                                searchConditionValue="Assessable"/>
+                                </searchValues>
+                            </condition>
+                            <condition
+                                        bundleType="RCM-ComPlan"
+                                        propertyType="CP Owner"
+                                        searchOperator="equalTo"
+                                        searchType="Simple Condition"
+                                        label="2"
+                                        not="false">
+                                <searchValues>
+                                    <searchValue
+                                                searchConditionValue="##{logged in user}##"/>
+                                </searchValues>
+                            </condition>
+                        </conditionGroup>
+                    </conditionGroup>
+                </conditions>
+            </criteriaList>
+        </queryDefinition>
+    </queryDefinitions>
+    <objectStringSet>
+        <localeStringSet name ="Italian">
+            <queryDefinitionString
+                    name="Assessment Not Determined"
+                    objectType="OblEval"
+                    label="Assessment Not Determined"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Library Compliance Plan"
+                    objectType="CompliancePlan"
+                    label="My Library Compliance Plan"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Plans - Under Maintenance"
+                    objectType="CompliancePlan"
+                    label="Library Plans - Under Maintenance"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Library Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="My Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Met"
+                    objectType="OblEval"
+                    label="Assessment Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Not Met"
+                    objectType="OblEval"
+                    label="Assessment Not Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Completed Assessments"
+                    objectType="CompliancePlan"
+                    label="Valutazioni completate"
+                    suppliedByVendor="false"
+                    overriddenByUser="true"/>
+        </localeStringSet>
+        <localeStringSet name ="U.K. English">
+            <queryDefinitionString
+                    name="Assessment Not Determined"
+                    objectType="OblEval"
+                    label="Assessment Not Determined"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Library Compliance Plan"
+                    objectType="CompliancePlan"
+                    label="My Library Compliance Plan"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Plans - Under Maintenance"
+                    objectType="CompliancePlan"
+                    label="Library Plans - Under Maintenance"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Library Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="My Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Met"
+                    objectType="OblEval"
+                    label="Assessment Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Not Met"
+                    objectType="OblEval"
+                    label="Assessment Not Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Completed Assessments"
+                    objectType="CompliancePlan"
+                    label="Completed Assessments"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+        </localeStringSet>
+        <localeStringSet name ="Traditional Chinese">
+            <queryDefinitionString
+                    name="Assessment Not Determined"
+                    objectType="OblEval"
+                    label="Assessment Not Determined"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Library Compliance Plan"
+                    objectType="CompliancePlan"
+                    label="My Library Compliance Plan"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Plans - Under Maintenance"
+                    objectType="CompliancePlan"
+                    label="Library Plans - Under Maintenance"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Library Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="My Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Met"
+                    objectType="OblEval"
+                    label="Assessment Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Not Met"
+                    objectType="OblEval"
+                    label="Assessment Not Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Completed Assessments"
+                    objectType="CompliancePlan"
+                    label="已完成的評量"
+                    suppliedByVendor="false"
+                    overriddenByUser="true"/>
+        </localeStringSet>
+        <localeStringSet name ="U.S. English">
+            <queryDefinitionString
+                    name="Assessment Not Determined"
+                    objectType="OblEval"
+                    label="Assessment Not Determined"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Library Compliance Plan"
+                    objectType="CompliancePlan"
+                    label="My Library Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="true"/>
+            <queryDefinitionString
+                    name="Library Plans - Under Maintenance"
+                    objectType="CompliancePlan"
+                    label="Library Plans - Under Maintenance"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Library Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="My Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Met"
+                    objectType="OblEval"
+                    label="Assessment Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Not Met"
+                    objectType="OblEval"
+                    label="Assessment Not Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Completed Assessments"
+                    objectType="CompliancePlan"
+                    label="Completed Assessments"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+        </localeStringSet>
+        <localeStringSet name ="Report Design Language">
+            <queryDefinitionString
+                    name="Assessment Not Determined"
+                    objectType="OblEval"
+                    label="Assessment Not Determined"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Library Compliance Plan"
+                    objectType="CompliancePlan"
+                    label="My Library Compliance Plan"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Plans - Under Maintenance"
+                    objectType="CompliancePlan"
+                    label="Library Plans - Under Maintenance"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Library Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="My Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Met"
+                    objectType="OblEval"
+                    label="Assessment Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Not Met"
+                    objectType="OblEval"
+                    label="Assessment Not Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Completed Assessments"
+                    objectType="CompliancePlan"
+                    label="Completed Assessments"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+        </localeStringSet>
+        <localeStringSet name ="Spanish">
+            <queryDefinitionString
+                    name="Assessment Not Determined"
+                    objectType="OblEval"
+                    label="Assessment Not Determined"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Library Compliance Plan"
+                    objectType="CompliancePlan"
+                    label="My Library Compliance Plan"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Plans - Under Maintenance"
+                    objectType="CompliancePlan"
+                    label="Library Plans - Under Maintenance"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Library Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="My Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Met"
+                    objectType="OblEval"
+                    label="Assessment Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Not Met"
+                    objectType="OblEval"
+                    label="Assessment Not Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Completed Assessments"
+                    objectType="CompliancePlan"
+                    label="Evaluaciones completadas"
+                    suppliedByVendor="false"
+                    overriddenByUser="true"/>
+        </localeStringSet>
+        <localeStringSet name ="Portuguese">
+            <queryDefinitionString
+                    name="Assessment Not Determined"
+                    objectType="OblEval"
+                    label="Assessment Not Determined"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Library Compliance Plan"
+                    objectType="CompliancePlan"
+                    label="My Library Compliance Plan"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Plans - Under Maintenance"
+                    objectType="CompliancePlan"
+                    label="Library Plans - Under Maintenance"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Library Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="My Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Met"
+                    objectType="OblEval"
+                    label="Assessment Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Not Met"
+                    objectType="OblEval"
+                    label="Assessment Not Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Completed Assessments"
+                    objectType="CompliancePlan"
+                    label="Avaliações concluídas"
+                    suppliedByVendor="false"
+                    overriddenByUser="true"/>
+        </localeStringSet>
+        <localeStringSet name ="Simplified Chinese">
+            <queryDefinitionString
+                    name="Assessment Not Determined"
+                    objectType="OblEval"
+                    label="Assessment Not Determined"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Library Compliance Plan"
+                    objectType="CompliancePlan"
+                    label="My Library Compliance Plan"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Plans - Under Maintenance"
+                    objectType="CompliancePlan"
+                    label="Library Plans - Under Maintenance"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Library Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="My Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Met"
+                    objectType="OblEval"
+                    label="Assessment Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Not Met"
+                    objectType="OblEval"
+                    label="Assessment Not Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Completed Assessments"
+                    objectType="CompliancePlan"
+                    label="已完成的评估"
+                    suppliedByVendor="false"
+                    overriddenByUser="true"/>
+        </localeStringSet>
+        <localeStringSet name ="French">
+            <queryDefinitionString
+                    name="Assessment Not Determined"
+                    objectType="OblEval"
+                    label="Assessment Not Determined"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Library Compliance Plan"
+                    objectType="CompliancePlan"
+                    label="My Library Compliance Plan"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Plans - Under Maintenance"
+                    objectType="CompliancePlan"
+                    label="Library Plans - Under Maintenance"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Library Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="My Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Met"
+                    objectType="OblEval"
+                    label="Assessment Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Not Met"
+                    objectType="OblEval"
+                    label="Assessment Not Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Completed Assessments"
+                    objectType="CompliancePlan"
+                    label="Évaluations terminées"
+                    suppliedByVendor="false"
+                    overriddenByUser="true"/>
+        </localeStringSet>
+        <localeStringSet name ="Japanese">
+            <queryDefinitionString
+                    name="Assessment Not Determined"
+                    objectType="OblEval"
+                    label="Assessment Not Determined"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Library Compliance Plan"
+                    objectType="CompliancePlan"
+                    label="My Library Compliance Plan"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Plans - Under Maintenance"
+                    objectType="CompliancePlan"
+                    label="Library Plans - Under Maintenance"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Library Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="My Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Met"
+                    objectType="OblEval"
+                    label="Assessment Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Not Met"
+                    objectType="OblEval"
+                    label="Assessment Not Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Completed Assessments"
+                    objectType="CompliancePlan"
+                    label="完了したアセスメント"
+                    suppliedByVendor="false"
+                    overriddenByUser="true"/>
+        </localeStringSet>
+        <localeStringSet name ="German">
+            <queryDefinitionString
+                    name="Assessment Not Determined"
+                    objectType="OblEval"
+                    label="Assessment Not Determined"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Library Compliance Plan"
+                    objectType="CompliancePlan"
+                    label="My Library Compliance Plan"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Plans - Under Maintenance"
+                    objectType="CompliancePlan"
+                    label="Library Plans - Under Maintenance"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Library Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="Library Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="My Assessable Compliance Plans"
+                    objectType="CompliancePlan"
+                    label="My Assessable Compliance Plans"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Met"
+                    objectType="OblEval"
+                    label="Assessment Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Assessment Not Met"
+                    objectType="OblEval"
+                    label="Assessment Not Met"
+                    suppliedByVendor="false"
+                    overriddenByUser="false"/>
+            <queryDefinitionString
+                    name="Completed Assessments"
+                    objectType="CompliancePlan"
+                    label="Abgeschlossene Bewertungen"
+                    suppliedByVendor="false"
+                    overriddenByUser="true"/>
+        </localeStringSet>
+    </objectStringSet></openpagesConfiguration>

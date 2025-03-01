@@ -1,0 +1,2501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openpagesConfiguration xmlFormatVersion="1.31">
+    <systemInformation name="opapp"
+                       retrievalDate="Fri Feb 28 06:40:58 EST 2025"
+                       openpages="11.0.0.2 (Build: 9.0.0.2-99 2024/03/11 13:57:08)"
+                       systemAdminMode="false"/>
+    <systemAdminMode enabled="false"/>
+    <systemAdminMode enabled="true"/>
+    <bundleTypes>
+        <bundleType name="watsonx-CompliancePlan"
+                    description=""
+                    type="Content Type"
+                    suppliedByVendor="false">
+            <propertyType name="All Obligations"
+                          description=""
+                          dataType="Integer"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Integer">
+                </displayType>
+            </propertyType>
+            <propertyType name="Applicability AI Type"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text">
+                </displayType>
+            </propertyType>
+            <propertyType name="Applicability Domain"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text">
+                </displayType>
+            </propertyType>
+            <propertyType name="Applicability Industry"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text">
+                </displayType>
+            </propertyType>
+            <propertyType name="Applicability Region"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text">
+                </displayType>
+            </propertyType>
+            <propertyType name="Compliance Assessment Status"
+                          description=""
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue="1"
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <enumType name="Compliance Assessment Status"
+                          description="">
+                    <enumValue name="Not Started"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Evidence Capture"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Compliance Assessment"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Assessment Complete"
+                               value="4"
+                               displayOrder="4"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "Compliance Assessment" : "palette01Color14",
+    "Evidence Capture" : "palette01Color08",
+    "Assessment Complete" : "palette01Color11",
+    "Not Started" : "palette01Color09"
+  },
+  "palette" : "categorical"
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Distribution Status"
+                          description=""
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue="1"
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <enumType name="Distribution Status"
+                          description="">
+                    <enumValue name="Not Started"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Library Maintenance"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Ready for Distribution"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Distributed"
+                               value="4"
+                               displayOrder="4"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "Ready for Distribution" : "palette02Color05",
+    "Not Started" : "palette02Color01",
+    "Library Maintenance" : "palette02Color03",
+    "Distributed" : "palette02Color07"
+  },
+  "palette" : "monochromatic"
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Effective Date"
+                          description=""
+                          dataType="Date"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Date">
+                </displayType>
+            </propertyType>
+            <propertyType name="Met"
+                          description=""
+                          dataType="Integer"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Integer">
+                </displayType>
+            </propertyType>
+            <propertyType name="Not Determined"
+                          description=""
+                          dataType="Integer"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Integer">
+                </displayType>
+            </propertyType>
+            <propertyType name="Not Met"
+                          description=""
+                          dataType="Integer"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Integer">
+                </displayType>
+            </propertyType>
+            <propertyType name="Percentage Obligations Assessed"
+                          description="Percentage Obligations Assessed"
+                          dataType="Integer"
+                          minValue="0"
+                          maxValue="100"
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Integer">
+                </displayType>
+            </propertyType>
+            <propertyType name="Percentage Obligations Met"
+                          description="Percentage Obligations Met"
+                          dataType="Integer"
+                          minValue="0"
+                          maxValue="100"
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Integer">
+                </displayType>
+            </propertyType>
+            <propertyType name="Percentage of Evidence Submitted"
+                          description="Percentage of Evidence Submitted"
+                          dataType="Integer"
+                          minValue="0"
+                          maxValue="100"
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Integer">
+                </displayType>
+            </propertyType>
+            <propertyType name="Progress"
+                          description=""
+                          dataType="Decimal"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Decimal">
+                </displayType>
+            </propertyType>
+            <propertyType name="Provider"
+                          description=""
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <enumType name="Provider"
+                          description="">
+                    <enumValue name="Credo"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Accenture"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="EY"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Internal"
+                               value="4"
+                               displayOrder="4"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="KPMG"
+                               value="5"
+                               displayOrder="5"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Deloitte"
+                               value="6"
+                               displayOrder="6"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="IBM"
+                               value="7"
+                               displayOrder="7"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "Credo" : "palette01Color01",
+    "EY" : "palette01Color18",
+    "Accenture" : "palette01Color04",
+    "IBM" : "palette01Color24",
+    "Internal" : "palette01Color27",
+    "KPMG" : "palette01Color08",
+    "Deloitte" : "palette01Color16"
+  }
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Published Version"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text">
+                </displayType>
+            </propertyType>
+            <propertyType name="Source URL"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="URL">
+                </displayType>
+            </propertyType>
+        </bundleType>
+        <bundleType name="watsonx-Obligation-Shared"
+                    description="watsonxgovernance shared fields for Obligation, Obligation Eval"
+                    type="Content Type"
+                    suppliedByVendor="true">
+            <propertyType name="Attestation Required"
+                          description="Attestation Required"
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue="3"
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="true"
+                          dataLength="">
+                <enumType name="Attestation Required"
+                          description="Attestation Required">
+                    <enumValue name="Yes"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="No"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Not Determined"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "No" : "palette01Color02",
+    "Yes" : "palette01Color17",
+    "Not Determined" : "palette01Color27"
+  },
+  "palette" : "categorical"
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Attestation Statement"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text Area">
+                </displayType>
+            </propertyType>
+            <propertyType name="Compliance Assessment Status"
+                          description="Compliance Assessment Status"
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue="1"
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <enumType name="Compliance Assessment Status"
+                          description="Compliance Assessment Status">
+                    <enumValue name="Not Started"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Evidence Capture"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Compliance Assessment"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Assessment Complete"
+                               value="4"
+                               displayOrder="5"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Awaiting Compliance Assessment"
+                               value="5"
+                               displayOrder="4"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "Compliance Assessment" : "palette01Color10",
+    "Evidence Capture" : "palette01Color05",
+    "Assessment Complete" : "palette01Color07",
+    "Not Started" : "palette01Color01",
+    "Awaiting Compliance Assessment" : "palette01Color19"
+  },
+  "palette" : "categorical"
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Control Key"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text">
+                </displayType>
+            </propertyType>
+            <propertyType name="Control Required"
+                          description="Control Required"
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue="3"
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="true"
+                          dataLength="">
+                <enumType name="Control Required"
+                          description="Control Required">
+                    <enumValue name="Yes"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="No"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Not Determined"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "No" : "palette01Color02",
+    "Yes" : "palette01Color17",
+    "Not Determined" : "palette01Color27"
+  }
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Distribution Status"
+                          description=""
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue="1"
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <enumType name="Distribution Status"
+                          description="">
+                    <enumValue name="Not Started"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Library Maintenance"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Ready for Distribution"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Distributed"
+                               value="4"
+                               displayOrder="4"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "Ready for Distribution" : "palette02Color05",
+    "Not Started" : "palette02Color01",
+    "Library Maintenance" : "palette02Color03",
+    "Distributed" : "palette02Color07"
+  },
+  "palette" : "monochromatic"
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Documentation Required"
+                          description="Documentation Required"
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue="3"
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="true"
+                          dataLength="">
+                <enumType name="Documentation Required"
+                          description="Documentation Required">
+                    <enumValue name="Yes"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="No"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Not Determined"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "No" : "palette01Color02",
+    "Yes" : "palette01Color17",
+    "Not Determined" : "palette01Color27"
+  },
+  "palette" : "categorical"
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Evidence Description"
+                          description=""
+                          dataType="Long String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="Medium">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text Area">
+                </displayType>
+            </propertyType>
+            <propertyType name="Evidence Key"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text">
+                </displayType>
+            </propertyType>
+            <propertyType name="Evidence Summary"
+                          description="Evidence Summary"
+                          dataType="Long String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="Medium">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text Area">
+                </displayType>
+            </propertyType>
+            <propertyType name="Evidence Type"
+                          description=""
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <enumType name="Evidence Type"
+                          description="">
+                    <enumValue name="select"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="text"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="file"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="table"
+                               value="4"
+                               displayOrder="4"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="metric"
+                               value="5"
+                               displayOrder="5"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="yes_no"
+                               value="6"
+                               displayOrder="6"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "select" : "palette02Color02",
+    "file" : "palette02Color04",
+    "metric" : "palette02Color08",
+    "yes_no" : "palette02Color10",
+    "text" : "palette02Color03",
+    "table" : "palette02Color06"
+  },
+  "palette" : "monochromatic"
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Lower Threshold"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text">
+                </displayType>
+            </propertyType>
+            <propertyType name="Metric Required"
+                          description="Metric Required"
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue="3"
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="true"
+                          dataLength="">
+                <enumType name="Metric Required"
+                          description="Metric Required">
+                    <enumValue name="Yes"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="No"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Not Determined"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "No" : "palette01Color02",
+    "Yes" : "palette01Color17",
+    "Not Determined" : "palette01Color27"
+  },
+  "palette" : "categorical"
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Other Evidence Description"
+                          description="Other Evidence Description"
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text Area">
+                </displayType>
+                <displayType name="Text Area">
+                </displayType>
+            </propertyType>
+            <propertyType name="Other Evidence Required"
+                          description="Other Evidence Required"
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue="3"
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="true"
+                          dataLength="">
+                <enumType name="Other Evidence Required"
+                          description="Other Evidence Required">
+                    <enumValue name="Yes"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="No"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Not Determined"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "No" : "palette01Color02",
+    "Yes" : "palette01Color17",
+    "Not Determined" : "palette01Color27"
+  },
+  "palette" : "categorical"
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Provider"
+                          description=""
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <enumType name="Provider"
+                          description="">
+                    <enumValue name="Credo"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Accenture"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="EY"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Internal"
+                               value="4"
+                               displayOrder="4"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="KPMG"
+                               value="5"
+                               displayOrder="5"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Deloitte"
+                               value="6"
+                               displayOrder="6"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="IBM"
+                               value="7"
+                               displayOrder="7"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "Credo" : "palette01Color01",
+    "EY" : "palette01Color18",
+    "Accenture" : "palette01Color04",
+    "IBM" : "palette01Color02",
+    "Internal" : "palette01Color27",
+    "KPMG" : "palette01Color23",
+    "Deloitte" : "palette01Color17"
+  }
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Purpose"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text Area">
+                </displayType>
+            </propertyType>
+            <propertyType name="Required Attestation Description"
+                          description="Required Attestation Description"
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="true"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text Area">
+                </displayType>
+                <displayType name="Text Area">
+                </displayType>
+            </propertyType>
+            <propertyType name="Required Control Description"
+                          description="Required Control Description"
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="true"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text Area">
+                </displayType>
+                <displayType name="Text Area">
+                </displayType>
+            </propertyType>
+            <propertyType name="Required Documentation Description"
+                          description="Required Documentation Description"
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="true"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text Area">
+                </displayType>
+                <displayType name="Text Area">
+                </displayType>
+            </propertyType>
+            <propertyType name="Required Metric Description"
+                          description="Required Metric Description"
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="true"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text Area">
+                </displayType>
+                <displayType name="Text Area">
+                </displayType>
+            </propertyType>
+            <propertyType name="Review Status"
+                          description=""
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <enumType name="Review Status"
+                          description="">
+                    <enumValue name="Not Started"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Awaiting Assessment"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Awaiting Approval"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Complete"
+                               value="4"
+                               displayOrder="4"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Upper Threshold"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text">
+                </displayType>
+            </propertyType>
+            <propertyType name="Yes No"
+                          description=""
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <enumType name="Yes No"
+                          description="">
+                    <enumValue name="Yes"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="No"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Not Applicable "
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : { },
+  "palette" : "categorical"
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+        </bundleType>
+        <bundleType name="watsonx-ObligationEval-Shared"
+                    description="Shared fields for the Obligation Eval and Obligation Eval Value"
+                    type="Content Type"
+                    suppliedByVendor="false">
+            <propertyType name="Assessment Result"
+                          description=""
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue="1"
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <enumType name="Assessment Result"
+                          description="">
+                    <enumValue name="Not Determined"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Met"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Not Met"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "Met" : "palette01Color16",
+    "Not Met" : "palette01Color20",
+    "Not Determined" : "palette01Color27"
+  }
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Attestation Additional Comment"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Text Area">
+                </displayType>
+            </propertyType>
+            <propertyType name="Attestation Confirmation"
+                          description=""
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <enumType name="Attestation Confirmation"
+                          description="">
+                    <enumValue name="Yes"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="No"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Attestation Additional Comments"
+                               value="3"
+                               displayOrder="3"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "Attestation Additional Comments" : "palette01Color27"
+  },
+  "palette" : "categorical"
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+            <propertyType name="Attestation Date"
+                          description=""
+                          dataType="Date"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Date">
+                </displayType>
+            </propertyType>
+            <propertyType name="Screenshots"
+                          description=""
+                          dataType="Simple String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="false"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Rich Text">
+                </displayType>
+            </propertyType>
+        </bundleType>
+        <bundleType name="watsonx-Obligation-Eval-Counts"
+                    description="Field Group for Evaluation counts"
+                    type="Content Type"
+                    suppliedByVendor="false">
+            <propertyType name="All Evals"
+                          description=""
+                          dataType="Integer"
+                          minValue="0"
+                          maxValue="999"
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{
+  "numberRangeColors" : [ {
+    "top" : 999.0,
+    "color" : "palette01Color02"
+  } ]
+}                ]]></displayTypeAttributes>
+                <displayType name="Integer">
+                </displayType>
+            </propertyType>
+            <propertyType name="Count Met"
+                          description=""
+                          dataType="Integer"
+                          minValue="0"
+                          maxValue="999"
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Integer">
+                </displayType>
+            </propertyType>
+            <propertyType name="Not Determined"
+                          description=""
+                          dataType="Integer"
+                          minValue="0"
+                          maxValue="999"
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{ }                ]]></displayTypeAttributes>
+                <displayType name="Integer">
+                </displayType>
+            </propertyType>
+            <propertyType name="Not Met"
+                          description=""
+                          dataType="Integer"
+                          minValue="0"
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <displayTypeAttributes><![CDATA[
+{
+  "numberRangeColors" : [ {
+    "color" : "palette01Color20"
+  } ]
+}                ]]></displayTypeAttributes>
+                <displayType name="Integer">
+                </displayType>
+            </propertyType>
+        </bundleType>
+    </bundleTypes>
+    <systemAdminMode enabled="false"/>
+    <objectStrings>
+        <localeStrings name="U.S. English">
+            <enumValueString name="Ready for Distribution"
+                             field="Distribution Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Ready for Distribution"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Yes"
+                             field="Yes No"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Yes"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Distributed"
+                             field="Distribution Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Distributed"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Other Evidence Description"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Other Evidence Description"
+                         pluralValue=""
+                         guidance="Other Evidence Description"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="Library Maintenance"
+                             field="Distribution Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Library Maintenance"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Attestation Date"
+                         fieldGroup="watsonx-obligationeval-shared"
+                         singularValue="Attestation Date"
+                         pluralValue=""
+                         guidance="Attestation Date"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <fieldString name="Yes No"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Yes No Response"
+                         pluralValue=""
+                         guidance="Yes No"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+            <enumValueString name="Attestation Additional Comments"
+                             field="Attestation Confirmation"
+                             fieldGroup="watsonx-obligationeval-shared"
+                             value="Additional Comments"
+                             suppliedByVendor="false"
+                             overriddenByUser="true"/>
+            <fieldString name="Evidence Description"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Evidence Description"
+                         pluralValue=""
+                         guidance="Evidence Description"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <fieldString name="Effective Date"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Effective Date"
+                         pluralValue=""
+                         guidance="Effective Date"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <fieldString name="Source URL"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Source URL"
+                         pluralValue=""
+                         guidance="URL Link to External Details"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+            <fieldString name="Compliance Assessment Status"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Compliance Assessment Status"
+                         pluralValue=""
+                         guidance="Compliance Assessment Status"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <fieldString name="Review Status"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Review Status"
+                         pluralValue=""
+                         guidance="Review Status"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="Yes"
+                             field="Other Evidence Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Yes"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <enumValueString name="Evidence Capture"
+                             field="Compliance Assessment Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Evidence Capture"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="metric"
+                             field="Evidence Type"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Metric"
+                             suppliedByVendor="false"
+                             overriddenByUser="true"/>
+            <fieldString name="Met"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Met"
+                         pluralValue=""
+                         guidance="Met"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="No"
+                             field="Other Evidence Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="No"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <enumValueString name="Not Started"
+                             field="Compliance Assessment Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Not Started"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Distribution Status"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Distribution Status"
+                         pluralValue=""
+                         guidance="Distribution Status"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="yes_no"
+                             field="Evidence Type"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Yes or No"
+                             suppliedByVendor="false"
+                             overriddenByUser="true"/>
+            <fieldString name="Other Evidence Required"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Other Evidence Required"
+                         pluralValue=""
+                         guidance="Other Evidence Required"
+                         suppliedByVendor="true"
+                         overriddenByUser="false"/>
+            <enumValueString name="Not Met"
+                             field="Assessment Result"
+                             fieldGroup="watsonx-obligationeval-shared"
+                             value="Not Met"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Evidence Summary"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Evidence Summary"
+                         pluralValue=""
+                         guidance="Evidence Summary"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <fieldString name="All Obligations"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="All Obligations"
+                         pluralValue=""
+                         guidance="All Obligations"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="KPMG"
+                             field="Provider"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="KPMG"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Applicability Domain"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Applicability Domain"
+                         pluralValue=""
+                         guidance="Applicability Domain"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="No"
+                             field="Attestation Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="No"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <fieldString name="Compliance Assessment Status"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Compliance Assessment Status"
+                         pluralValue=""
+                         guidance="Compliance Assessment Status"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <fieldString name="Not Determined"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Not Determined"
+                         pluralValue=""
+                         guidance="Not Determined"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <fieldString name="Required Metric Description"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Required Metric Description"
+                         pluralValue=""
+                         guidance="Required Metric Description"
+                         suppliedByVendor="true"
+                         overriddenByUser="false"/>
+            <enumValueString name="Not Determined"
+                             field="Metric Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Not Determined"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <fieldString name="All Evals"
+                         fieldGroup="watsonx-Obligation-Eval-Counts"
+                         singularValue="Evaluations"
+                         pluralValue=""
+                         guidance="Count of Evaluations"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+            <enumValueString name="Awaiting Assessment"
+                             field="Review Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Awaiting Assessment"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Yes"
+                             field="Metric Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Yes"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <enumValueString name="Credo"
+                             field="Provider"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="Credo.ai"
+                             suppliedByVendor="false"
+                             overriddenByUser="true"/>
+            <enumValueString name="EY"
+                             field="Provider"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="EY"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Attestation Confirmation"
+                         fieldGroup="watsonx-obligationeval-shared"
+                         singularValue="Attestation Confirmation"
+                         pluralValue=""
+                         guidance="Attestation Confirmation"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="Deloitte"
+                             field="Provider"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Deloitte"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Attestation Required"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Attestation Required"
+                         pluralValue=""
+                         guidance="Attestation Required"
+                         suppliedByVendor="true"
+                         overriddenByUser="false"/>
+            <enumValueString name="Not Started"
+                             field="Review Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Not Started"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Not Determined"
+                             field="Other Evidence Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Not Determined"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+             <enumValueString name="Yes"
+                             field="Control Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Yes"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <fieldString name="Control Required"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Control Required"
+                         pluralValue=""
+                         guidance="Control Required"
+                         suppliedByVendor="true"
+                         overriddenByUser="false"/>
+            <enumValueString name="Compliance Assessment"
+                             field="Compliance Assessment Status"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="Compliance Assessment"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Evidence Capture"
+                             field="Compliance Assessment Status"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="Evidence Capture"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+                  <fieldString name="Screenshots"
+                         fieldGroup="watsonx-obligationeval-shared"
+                         singularValue="Evidence Provided"
+                         pluralValue=""
+                         guidance="Field for Screenshots as part of the compliance evidence process"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+            <fieldString name="Evidence Key"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Evidence Key"
+                         pluralValue=""
+                         guidance="Credo Ai Evidence Key"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+            <enumValueString name="Yes"
+                             field="Attestation Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Yes"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <fieldString name="Required Attestation Description"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Required Attestation Description"
+                         pluralValue=""
+                         guidance="Required Attestation Description"
+                         suppliedByVendor="true"
+                         overriddenByUser="false"/>
+            <enumValueString name="No"
+                             field="Attestation Confirmation"
+                             fieldGroup="watsonx-obligationeval-shared"
+                             value="No"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Accenture"
+                             field="Provider"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="Accenture"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="No"
+                             field="Metric Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="No"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <fieldString name="Upper Threshold"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Upper Threshold"
+                         pluralValue=""
+                         guidance="Upper Threshold"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="IBM"
+                             field="Provider"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="IBM"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Applicability Industry"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Applicability Industry"
+                         pluralValue=""
+                         guidance="Applicability Industry"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="Credo"
+                             field="Provider"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Credo.ai"
+                             suppliedByVendor="false"
+                             overriddenByUser="true"/>
+            <fieldString name="Percentage Obligations Met"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Percentage Obligations Met"
+                         pluralValue=""
+                         guidance="Percentage Obligations Met"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="No"
+                             field="Control Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="No"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <fieldString name="Percentage of Evidence Submitted"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Percentage of Evidence Submitted"
+                         pluralValue=""
+                         guidance="Percentage of Evidence Submitted"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <fieldString name="Required Control Description"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Required Control Description"
+                         pluralValue=""
+                         guidance="Required Control Description"
+                         suppliedByVendor="true"
+                         overriddenByUser="false"/>
+            <enumValueString name="IBM"
+                             field="Provider"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="IBM"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Not Met"
+                         fieldGroup="watsonx-Obligation-Eval-Counts"
+                         singularValue="Not Met"
+                         pluralValue=""
+                         guidance="Evals Not Met"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+            <enumValueString name="Distributed"
+                             field="Distribution Status"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="Distributed"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Applicability AI Type"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Applicability AI Type"
+                         pluralValue=""
+                         guidance="Applicability AI Type"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="Not Started"
+                             field="Compliance Assessment Status"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="Not Started"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="select"
+                             field="Evidence Type"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Select"
+                             suppliedByVendor="false"
+                             overriddenByUser="true"/>
+            <fieldString name="Provider"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Provider"
+                         pluralValue=""
+                         guidance="Provider"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <fieldString name="Purpose"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Purpose"
+                         pluralValue=""
+                         guidance="Purpose"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="Accenture"
+                             field="Provider"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Accenture"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Not Applicable "
+                             field="Yes No"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Not Applicable "
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Not Met"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Not Met"
+                         pluralValue=""
+                         guidance="Not Met"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="Deloitte"
+                             field="Provider"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="Deloitte"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Not Determined"
+                             field="Control Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Not Determined"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <fieldString name="Distribution Status"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Distribution Status"
+                         pluralValue=""
+                         guidance="Distribution Status"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <fieldString name="Required Documentation Description"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Required Documentation Description"
+                         pluralValue=""
+                         guidance="Required Documentation Description"
+                         suppliedByVendor="true"
+                         overriddenByUser="false"/>
+            <enumValueString name="No"
+                             field="Documentation Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="No"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <enumValueString name="No"
+                             field="Yes No"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="No"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Attestation Additional Comment"
+                         fieldGroup="watsonx-obligationeval-shared"
+                         singularValue="Additional Comment"
+                         pluralValue=""
+                         guidance="Attestation Additional Comment"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+            <enumValueString name="EY"
+                             field="Provider"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="EY"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Assessment Complete"
+                             field="Compliance Assessment Status"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="Assessment Complete"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Internal"
+                             field="Provider"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="Internal"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Not Determined"
+                             field="Documentation Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Not Determined"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <enumValueString name="Not Determined"
+                             field="Attestation Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Not Determined"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <fieldString name="Documentation Required"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Documentation Required"
+                         pluralValue=""
+                         guidance="Documentation Required"
+                         suppliedByVendor="true"
+                         overriddenByUser="false"/>
+            <fieldString name="Not Determined"
+                         fieldGroup="watsonx-Obligation-Eval-Counts"
+                         singularValue="Not Determined"
+                         pluralValue=""
+                         guidance="Count of Not Determined Evals"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+            <fieldString name="Control Key"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Control Key"
+                         pluralValue=""
+                         guidance="Credo Ai Control Key"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+            <enumValueString name="Awaiting Approval"
+                             field="Review Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Awaiting Approval"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Met"
+                             field="Assessment Result"
+                             fieldGroup="watsonx-obligationeval-shared"
+                             value="Met"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Awaiting Compliance Assessment"
+                             field="Compliance Assessment Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Awaiting Compliance Assessment"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Published Version"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Published Version"
+                         pluralValue=""
+                         guidance="Published Version"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <fieldString name="Lower Threshold"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Lower Threshold"
+                         pluralValue=""
+                         guidance="Lower Threshold"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="Assessment Complete"
+                             field="Compliance Assessment Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Assessment Complete"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Metric Required"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Metric Required"
+                         pluralValue=""
+                         guidance="Metric Required"
+                         suppliedByVendor="true"
+                         overriddenByUser="false"/>
+            <enumValueString name="Not Started"
+                             field="Distribution Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Not Started"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Not Started"
+                             field="Distribution Status"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="Not Started"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Attestation Statement"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Attestation Statement"
+                         pluralValue=""
+                         guidance="The required Attestation statement that will be set on the Obligation and copied to the Obligation Eval and Obligation Eval Value"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+            <fieldString name="Assessment Result"
+                         fieldGroup="watsonx-obligationeval-shared"
+                         singularValue="Assessment Result"
+                         pluralValue=""
+                         guidance="Assessment Result"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="file"
+                             field="Evidence Type"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="File"
+                             suppliedByVendor="false"
+                             overriddenByUser="true"/>
+            <fieldString name="Progress"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Progress"
+                         pluralValue=""
+                         guidance="Progress"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="Complete"
+                             field="Review Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Complete"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Internal"
+                             field="Provider"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Internal"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="KPMG"
+                             field="Provider"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="KPMG"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="text"
+                             field="Evidence Type"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Text"
+                             suppliedByVendor="false"
+                             overriddenByUser="true"/>
+            <fieldString name="Evidence Type"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Evidence Type"
+                         pluralValue=""
+                         guidance="Evidence Type required"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+            <fieldString name="Provider"
+                         fieldGroup="watsonx-Obligation-Shared"
+                         singularValue="Provider"
+                         pluralValue=""
+                         guidance="Provider"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="Library Maintenance"
+                             field="Distribution Status"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="Library Maintenance"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Ready for Distribution"
+                             field="Distribution Status"
+                             fieldGroup="watsonx-CompliancePlan"
+                             value="Ready for Distribution"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Count Met"
+                         fieldGroup="watsonx-Obligation-Eval-Counts"
+                         singularValue="Met"
+                         pluralValue=""
+                         guidance="Count Met"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+            <fieldString name="Percentage Obligations Assessed"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Percentage Obligations Assessed"
+                         pluralValue=""
+                         guidance="Percentage Obligations Assessed"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+            <enumValueString name="Yes"
+                             field="Attestation Confirmation"
+                             fieldGroup="watsonx-obligationeval-shared"
+                             value="Yes"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Compliance Assessment"
+                             field="Compliance Assessment Status"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Compliance Assessment"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Not Determined"
+                             field="Assessment Result"
+                             fieldGroup="watsonx-obligationeval-shared"
+                             value="Not Determined"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Yes"
+                             field="Documentation Required"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Yes"
+                             suppliedByVendor="true"
+                             overriddenByUser="false"/>
+            <enumValueString name="table"
+                             field="Evidence Type"
+                             fieldGroup="watsonx-Obligation-Shared"
+                             value="Table"
+                             suppliedByVendor="false"
+                             overriddenByUser="true"/>
+            <fieldString name="Applicability Region"
+                         fieldGroup="watsonx-CompliancePlan"
+                         singularValue="Applicability Region"
+                         pluralValue=""
+                         guidance="Applicability Region"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+        </localeStrings>
+    </objectStrings>
+    	<systemAdminMode enabled="true"/>
+      <jspBasedContentTypes>
+            <contentType name="CompliancePlan"
+                    description="Unified Object Type"
+                    rootFolder="/_op_sox/Project/Default/ICDocumentation/Compliance Plans"
+                    category="Compliance"
+                    multiVersionable="true"
+                    suppliedByVendor="true"
+                    searchEnabled="true"
+                    titleEnabled="true"
+                    nameDisplay="titleID"
+                    taggingEnabled="true"
+                    jspPath="/propertyForm/renderProperties.jsp"
+                    allowOverride="true">
+                      <bundleTypeAssignment name="watsonx-CompliancePlan"/>
+                      <fileTypeAssignment name="txt (text/plain)"/>
+              </contentType>
+            <contentType name="Obligation"
+                     description="Unified Object Type"
+                     rootFolder="/_op_sox/Project/Default/ICDocumentation/Obligations"
+                     category="Compliance"
+                     multiVersionable="true"
+                     suppliedByVendor="true"
+                     searchEnabled="true"
+                     titleEnabled="true"
+                     nameDisplay="titleID"
+                     taggingEnabled="true"
+                     jspPath="/propertyForm/renderProperties.jsp"
+                     allowOverride="true">
+                      <bundleTypeAssignment name="watsonx-Obligation-Shared"/>
+                      <bundleTypeAssignment name="watsonx-Obligation-Eval-Counts"/>
+                      <fileTypeAssignment name="txt (text/plain)"/>
+              </contentType>
+            <contentType name="OblEvalValue"
+                     description="Unified Object Type"
+                     rootFolder="/_op_sox/Project/Default/ICDocumentation/Obligation Evaluation Values"
+                     category="Compliance"
+                     multiVersionable="true"
+                     suppliedByVendor="true"
+                     searchEnabled="true"
+                     titleEnabled="false"
+                     titleRequired="false"
+                     nameDisplay="titleOnly"
+                     taggingEnabled="true"
+                     jspPath="/propertyForm/renderProperties.jsp">
+                    <bundleTypeAssignment name="watsonx-ObligationEval-Shared"/>
+                    <fileTypeAssignment name="txt (text/plain)"/>
+              </contentType>
+	  </jspBasedContentTypes>
+	<systemAdminMode enabled="false"/>
+</openpagesConfiguration>
