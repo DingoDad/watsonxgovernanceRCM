@@ -1731,7 +1731,7 @@
                              suppliedByVendor="false"
                              overriddenByUser="false"/>
             <fieldString name="Attestation Date"
-                         fieldGroup="watsonx-obligationeval-shared"
+                         fieldGroup="watsonx-ObligationEval-Shared"
                          singularValue="Attestation Date"
                          pluralValue=""
                          guidance="Attestation Date"
@@ -1746,7 +1746,7 @@
                          overriddenByUser="true"/>
             <enumValueString name="Attestation Additional Comments"
                              field="Attestation Confirmation"
-                             fieldGroup="watsonx-obligationeval-shared"
+                             fieldGroup="watsonx-ObligationEval-Shared"
                              value="Additional Comments"
                              suppliedByVendor="false"
                              overriddenByUser="true"/>
@@ -1844,7 +1844,7 @@
                          overriddenByUser="false"/>
             <enumValueString name="Not Met"
                              field="Assessment Result"
-                             fieldGroup="watsonx-obligationeval-shared"
+                             fieldGroup="watsonx-ObligationEval-Shared"
                              value="Not Met"
                              suppliedByVendor="false"
                              overriddenByUser="false"/>
@@ -1940,7 +1940,7 @@
                              suppliedByVendor="false"
                              overriddenByUser="false"/>
             <fieldString name="Attestation Confirmation"
-                         fieldGroup="watsonx-obligationeval-shared"
+                         fieldGroup="watsonx-ObligationEval-Shared"
                          singularValue="Attestation Confirmation"
                          pluralValue=""
                          guidance="Attestation Confirmation"
@@ -1997,7 +1997,7 @@
                              suppliedByVendor="false"
                              overriddenByUser="false"/>
                   <fieldString name="Screenshots"
-                         fieldGroup="watsonx-obligationeval-shared"
+                         fieldGroup="watsonx-ObligationEval-Shared"
                          singularValue="Evidence Provided"
                          pluralValue=""
                          guidance="Field for Screenshots as part of the compliance evidence process"
@@ -2025,7 +2025,7 @@
                          overriddenByUser="false"/>
             <enumValueString name="No"
                              field="Attestation Confirmation"
-                             fieldGroup="watsonx-obligationeval-shared"
+                             fieldGroup="watsonx-ObligationEval-Shared"
                              value="No"
                              suppliedByVendor="false"
                              overriddenByUser="false"/>
@@ -2204,7 +2204,7 @@
                              suppliedByVendor="false"
                              overriddenByUser="false"/>
             <fieldString name="Attestation Additional Comment"
-                         fieldGroup="watsonx-obligationeval-shared"
+                         fieldGroup="watsonx-ObligationEval-Shared"
                          singularValue="Additional Comment"
                          pluralValue=""
                          guidance="Attestation Additional Comment"
@@ -2269,7 +2269,7 @@
                              overriddenByUser="false"/>
             <enumValueString name="Met"
                              field="Assessment Result"
-                             fieldGroup="watsonx-obligationeval-shared"
+                             fieldGroup="watsonx-ObligationEval-Shared"
                              value="Met"
                              suppliedByVendor="false"
                              overriddenByUser="false"/>
@@ -2326,7 +2326,7 @@
                          suppliedByVendor="false"
                          overriddenByUser="true"/>
             <fieldString name="Assessment Result"
-                         fieldGroup="watsonx-obligationeval-shared"
+                         fieldGroup="watsonx-ObligationEval-Shared"
                          singularValue="Assessment Result"
                          pluralValue=""
                          guidance="Assessment Result"
@@ -2411,7 +2411,7 @@
                          overriddenByUser="false"/>
             <enumValueString name="Yes"
                              field="Attestation Confirmation"
-                             fieldGroup="watsonx-obligationeval-shared"
+                             fieldGroup="watsonx-ObligationEval-Shared"
                              value="Yes"
                              suppliedByVendor="false"
                              overriddenByUser="false"/>
@@ -2423,7 +2423,7 @@
                              overriddenByUser="false"/>
             <enumValueString name="Not Determined"
                              field="Assessment Result"
-                             fieldGroup="watsonx-obligationeval-shared"
+                             fieldGroup="watsonx-ObligationEval-Shared"
                              value="Not Determined"
                              suppliedByVendor="false"
                              overriddenByUser="false"/>
@@ -2481,6 +2481,22 @@
                       <bundleTypeAssignment name="watsonx-Obligation-Eval-Counts"/>
                       <fileTypeAssignment name="txt (text/plain)"/>
               </contentType>
+              <contentType name="OblEval"
+                     description="Unified Object Type"
+                     rootFolder="/_op_sox/Project/Default/ICDocumentation/Obligation Evaluations"
+                     category="Compliance"
+                     multiVersionable="true"
+                     suppliedByVendor="true"
+                     searchEnabled="true"
+                     titleEnabled="false"
+                     titleRequired="false"
+                     nameDisplay="titleOnly"
+                     taggingEnabled="true"
+                     jspPath="/propertyForm/renderProperties.jsp">
+                     <bundleTypeAssignment name="watsonx-Obligation-Shared"/>
+                    <bundleTypeAssignment name="watsonx-ObligationEval-Shared"/>
+                    <fileTypeAssignment name="txt (text/plain)"/>
+              </contentType>
             <contentType name="OblEvalValue"
                      description="Unified Object Type"
                      rootFolder="/_op_sox/Project/Default/ICDocumentation/Obligation Evaluation Values"
@@ -2494,6 +2510,7 @@
                      taggingEnabled="true"
                      jspPath="/propertyForm/renderProperties.jsp">
                     <bundleTypeAssignment name="watsonx-ObligationEval-Shared"/>
+                    <bundleTypeAssignment name="watsonx-Obligation-Shared"/>
                     <fileTypeAssignment name="txt (text/plain)"/>
               </contentType>
 	  </jspBasedContentTypes>
