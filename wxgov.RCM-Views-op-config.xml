@@ -23194,7 +23194,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Attestation Required",
+            "name" : "watsonx-Obligation-Shared:Attestation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -23215,7 +23215,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Control Required",
+            "name" : "watsonx-Obligation-Shared:Control Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -23238,7 +23238,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Documentation Required",
+            "name" : "watsonx-Obligation-Shared:Documentation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -23261,7 +23261,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Metric Required",
+            "name" : "watsonx-Obligation-Shared:Metric Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -23284,7 +23284,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Other Evidence Required",
+            "name" : "watsonx-Obligation-Shared:Other Evidence Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -23442,7 +23442,7 @@
   "logicalOp" : "and",
   "conditions" : [ {
     "conditionType" : "enumerated",
-    "field" : "watsonx-obligation-shared:Distribution Status",
+    "field" : "watsonx-Obligation-Shared:Distribution Status",
     "values" : [ "Library Maintenance" ],
     "invertMatch" : false
   } ]
@@ -23450,7 +23450,7 @@
             </viewRuleCondition>
         </responsiveView>
         <responsiveView
-                    name="watsopx-Admin-CompliancePlan"
+                    name="watsonx-Admin-CompliancePlan"
                     description=""
                     isDefault="true"
                     suppliedByVendor="false"
@@ -23765,7 +23765,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Attestation Required",
+            "name" : "watsonx-Obligation-Shared:Attestation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -23786,7 +23786,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Control Required",
+            "name" : "watsonx-Obligation-Shared:Control Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -23809,7 +23809,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Documentation Required",
+            "name" : "watsonx-Obligation-Shared:Documentation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -23832,7 +23832,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Metric Required",
+            "name" : "watsonx-Obligation-Shared:Metric Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -23855,7 +23855,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Other Evidence Required",
+            "name" : "watsonx-Obligation-Shared:Other Evidence Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -24271,7 +24271,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Attestation Required",
+            "name" : "watsonx-Obligation-Shared:Attestation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -24298,7 +24298,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Control Required",
+            "name" : "watsonx-Obligation-Shared:Control Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -24321,7 +24321,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Documentation Required",
+            "name" : "watsonx-Obligation-Shared:Documentation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -24344,7 +24344,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Metric Required",
+            "name" : "watsonx-Obligation-Shared:Metric Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -24373,7 +24373,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Other Evidence Required",
+            "name" : "watsonx-Obligation-Shared:Other Evidence Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -24427,15 +24427,15 @@
     }, {
       "fields" : [ {
         "name" : "Count Met",
-        "bundle" : "wxgov-obligation-eval-counts",
+        "bundle" : "watsonx-Obligation-Eval-Counts",
         "useMoreLess" : true
       }, {
         "name" : "Not Determined",
-        "bundle" : "wxgov-obligation-eval-counts",
+        "bundle" : "watsonx-Obligation-Eval-Counts",
         "useMoreLess" : true
       }, {
         "name" : "Not Met",
-        "bundle" : "wxgov-obligation-eval-counts",
+        "bundle" : "watsonx-Obligation-Eval-Counts",
         "useMoreLess" : true
       } ],
       "name" : "Trend on Fields History-0000",
@@ -24444,23 +24444,23 @@
       "subDisplayType" : "Chart",
       "chartType" : "line",
       "chartAttrs" : {
-        "wxgov-obligation-eval-counts:Count Met" : "palette01Color07",
-        "wxgov-obligation-eval-counts:Not Determined" : "palette01Color02",
-        "wxgov-obligation-eval-counts:Not Met" : "palette01Color20",
+        "watsonx-Obligation-Eval-Counts:Count Met" : "palette01Color07",
+        "watsonx-Obligation-Eval-Counts:Not Determined" : "palette01Color02",
+        "watsonx-Obligation-Eval-Counts:Not Met" : "palette01Color20",
         "dateRangeType" : "allTime"
       }
     }, {
       "fields" : [ {
         "name" : "Count Met",
-        "bundle" : "wxgov-obligation-eval-counts",
+        "bundle" : "watsonx-Obligation-Eval-Counts",
         "useMoreLess" : true
       }, {
         "name" : "Not Met",
-        "bundle" : "wxgov-obligation-eval-counts",
+        "bundle" : "watsonx-Obligation-Eval-Counts",
         "useMoreLess" : true
       }, {
         "name" : "Not Determined",
-        "bundle" : "wxgov-obligation-eval-counts",
+        "bundle" : "watsonx-Obligation-Eval-Counts",
         "useMoreLess" : true
       } ],
       "name" : "Columns-0001",
@@ -25161,7 +25161,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Other Evidence Required",
+            "name" : "watsonx-Obligation-Shared:Other Evidence Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -25183,7 +25183,7 @@
         "type" : "visible",
         "condition" : "allOf",
         "controllers" : [ {
-          "name" : "watsonx-obligation-shared:Attestation Required",
+          "name" : "watsonx-Obligation-Shared:Attestation Required",
           "values" : [ "Yes" ]
         } ]
       } ],
@@ -25196,7 +25196,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Attestation Required",
+            "name" : "watsonx-Obligation-Shared:Attestation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -25212,7 +25212,7 @@
         "type" : "visible",
         "condition" : "anyOf",
         "controllers" : [ {
-          "name" : "watsonx-obligation-shared:Attestation Required",
+          "name" : "watsonx-Obligation-Shared:Attestation Required",
           "values" : [ "Yes" ]
         } ]
       } ],
@@ -25226,7 +25226,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Attestation Required",
+            "name" : "watsonx-Obligation-Shared:Attestation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -25239,7 +25239,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Attestation Required",
+            "name" : "watsonx-Obligation-Shared:Attestation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -25278,7 +25278,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Control Required",
+            "name" : "watsonx-Obligation-Shared:Control Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -25323,7 +25323,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Control Required",
+            "name" : "watsonx-Obligation-Shared:Control Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -25345,10 +25345,10 @@
         "type" : "visible",
         "condition" : "anyOf",
         "controllers" : [ {
-          "name" : "watsonx-obligation-shared:Documentation Required",
+          "name" : "watsonx-Obligation-Shared:Documentation Required",
           "values" : [ "Yes" ]
         }, {
-          "name" : "watsonx-obligation-shared:Other Evidence Required",
+          "name" : "watsonx-Obligation-Shared:Other Evidence Required",
           "values" : [ "Yes" ]
         } ]
       } ],
@@ -25361,7 +25361,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Documentation Required",
+            "name" : "watsonx-Obligation-Shared:Documentation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -25431,7 +25431,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Documentation Required",
+            "name" : "watsonx-Obligation-Shared:Documentation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -25457,7 +25457,7 @@
         "type" : "visible",
         "condition" : "allOf",
         "controllers" : [ {
-          "name" : "watsonx-obligation-shared:Metric Required",
+          "name" : "watsonx-Obligation-Shared:Metric Required",
           "values" : [ "Yes" ]
         } ]
       } ],
@@ -25469,7 +25469,7 @@
         "type" : "visible",
         "condition" : "anyOf",
         "controllers" : [ {
-          "name" : "watsonx-obligation-shared:Metric Required",
+          "name" : "watsonx-Obligation-Shared:Metric Required",
           "values" : [ "Yes" ]
         } ]
       } ],
@@ -25526,7 +25526,7 @@
         "type" : "visible",
         "condition" : "anyOf",
         "controllers" : [ {
-          "name" : "watsonx-obligation-shared:Metric Required",
+          "name" : "watsonx-Obligation-Shared:Metric Required",
           "values" : [ "Yes" ]
         } ]
       } ],
@@ -27115,7 +27115,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Other Evidence Required",
+            "name" : "watsonx-Obligation-Shared:Other Evidence Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -27137,7 +27137,7 @@
         "type" : "visible",
         "condition" : "allOf",
         "controllers" : [ {
-          "name" : "watsonx-obligation-shared:Attestation Required",
+          "name" : "watsonx-Obligation-Shared:Attestation Required",
           "values" : [ "Yes" ]
         } ]
       } ],
@@ -27150,7 +27150,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Attestation Required",
+            "name" : "watsonx-Obligation-Shared:Attestation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -27166,7 +27166,7 @@
         "type" : "visible",
         "condition" : "anyOf",
         "controllers" : [ {
-          "name" : "watsonx-obligation-shared:Attestation Required",
+          "name" : "watsonx-Obligation-Shared:Attestation Required",
           "values" : [ "Yes" ]
         } ]
       } ],
@@ -27180,7 +27180,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Attestation Required",
+            "name" : "watsonx-Obligation-Shared:Attestation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -27193,7 +27193,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Attestation Required",
+            "name" : "watsonx-Obligation-Shared:Attestation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -27232,7 +27232,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Control Required",
+            "name" : "watsonx-Obligation-Shared:Control Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -27277,7 +27277,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Control Required",
+            "name" : "watsonx-Obligation-Shared:Control Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -27299,10 +27299,10 @@
         "type" : "visible",
         "condition" : "anyOf",
         "controllers" : [ {
-          "name" : "watsonx-obligation-shared:Documentation Required",
+          "name" : "watsonx-Obligation-Shared:Documentation Required",
           "values" : [ "Yes" ]
         }, {
-          "name" : "watsonx-obligation-shared:Other Evidence Required",
+          "name" : "watsonx-Obligation-Shared:Other Evidence Required",
           "values" : [ "Yes" ]
         } ]
       } ],
@@ -27315,7 +27315,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Documentation Required",
+            "name" : "watsonx-Obligation-Shared:Documentation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -27392,7 +27392,7 @@
           "type" : "visible",
           "condition" : "anyOf",
           "controllers" : [ {
-            "name" : "watsonx-obligation-shared:Documentation Required",
+            "name" : "watsonx-Obligation-Shared:Documentation Required",
             "values" : [ "Yes" ]
           } ]
         } ],
@@ -27413,7 +27413,7 @@
         "type" : "visible",
         "condition" : "allOf",
         "controllers" : [ {
-          "name" : "watsonx-obligation-shared:Metric Required",
+          "name" : "watsonx-Obligation-Shared:Metric Required",
           "values" : [ "Yes" ]
         } ]
       } ],
@@ -27425,7 +27425,7 @@
         "type" : "visible",
         "condition" : "anyOf",
         "controllers" : [ {
-          "name" : "watsonx-obligation-shared:Metric Required",
+          "name" : "watsonx-Obligation-Shared:Metric Required",
           "values" : [ "Yes" ]
         } ]
       } ],
@@ -27491,7 +27491,7 @@
         "type" : "visible",
         "condition" : "anyOf",
         "controllers" : [ {
-          "name" : "watsonx-obligation-shared:Metric Required",
+          "name" : "watsonx-Obligation-Shared:Metric Required",
           "values" : [ "Yes" ]
         } ]
       } ],
@@ -27833,10 +27833,10 @@
           "bundle" : "watsonx-Obligation-Shared"
         }, {
           "name" : "All Evals",
-          "bundle" : "wxgov-obligation-eval-counts"
+          "bundle" : "watsonx-Obligation-Eval-Counts"
         }, {
           "name" : "Count Met",
-          "bundle" : "wxgov-obligation-eval-counts"
+          "bundle" : "watsonx-Obligation-Eval-Counts"
         } ],
         "name" : "Grid-0044",
         "type" : "relationship",
@@ -28212,16 +28212,16 @@
         "bundle" : "System Fields"
       }, {
         "name" : "All Evals",
-        "bundle" : "wxgov-obligation-eval-counts"
+        "bundle" : "watsonx-Obligation-Eval-Counts"
       }, {
         "name" : "Count Met",
-        "bundle" : "wxgov-obligation-eval-counts"
+        "bundle" : "watsonx-Obligation-Eval-Counts"
       }, {
         "name" : "Not Met",
-        "bundle" : "wxgov-obligation-eval-counts"
+        "bundle" : "watsonx-Obligation-Eval-Counts"
       }, {
         "name" : "Not Determined",
-        "bundle" : "wxgov-obligation-eval-counts"
+        "bundle" : "watsonx-Obligation-Eval-Counts"
       } ],
       "name" : "Grid-0011",
       "type" : "relationship",
