@@ -2514,5 +2514,291 @@
                     <fileTypeAssignment name="txt (text/plain)"/>
               </contentType>
 	  </jspBasedContentTypes>
+    <bundleTypes>
+        <bundleType name="RCM-ComPlan"
+                    description="Processed by AFCON"
+                    type="Content Type"
+                    suppliedByVendor="false">
+            <propertyType name="Type"
+                          description="Type"
+                          dataType="Enumerated String"
+                          minValue=""
+                          maxValue=""
+                          defaultValue=""
+                          required="false"
+                          encrypted="false"
+                          currencyCode=""
+                          isDimension="false"
+                          isFact="false"
+                          multiValued="false"
+                          isHierarchical="false"
+                          searchEnabled="true"
+                          includeConversion="true"
+                          suppliedByVendor="false"
+                          dataLength="">
+                <enumType name="Type"
+                          description="Type">
+                    <enumValue name="Library"
+                               value="1"
+                               displayOrder="1"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                    <enumValue name="Assessable"
+                               value="2"
+                               displayOrder="2"
+                               isCommentRequired="false"
+                               isAttachmentRequired="false"
+                               hidden="false"/>
+                </enumType>
+                <displayTypeAttributes><![CDATA[
+{
+  "enumValueColors" : {
+    "Assessable" : "palette01Color01",
+    "Library" : "palette01Color23"
+  },
+  "palette" : "categorical"
+}                ]]></displayTypeAttributes>
+                <displayType name="List">
+                </displayType>
+                <displayType name="List">
+                </displayType>
+            </propertyType>
+        </bundleType>
+    </bundleTypes>
+    <systemAdminMode enabled="false"/>
+    <objectStrings>
+        <localeStrings name="Italian">
+            <enumValueString name="Assessable"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Assessable"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Library"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Library"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Type"
+                         fieldGroup="RCM-ComPlan"
+                         singularValue="Tipo"
+                         pluralValue=""
+                         guidance="Type"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+        </localeStrings>
+        <localeStrings name="U.K. English">
+            <enumValueString name="Assessable"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Assessable"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Library"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Library"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Type"
+                         fieldGroup="RCM-ComPlan"
+                         singularValue="Type"
+                         pluralValue=""
+                         guidance="Type"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+        </localeStrings>
+        <localeStrings name="Traditional Chinese">
+            <enumValueString name="Assessable"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Assessable"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Library"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Library"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Type"
+                         fieldGroup="RCM-ComPlan"
+                         singularValue="類型"
+                         pluralValue=""
+                         guidance="Type"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+        </localeStrings>
+        <localeStrings name="U.S. English">
+            <enumValueString name="Assessable"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Assessable"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Library"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Library"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Type"
+                         fieldGroup="RCM-ComPlan"
+                         singularValue="Type"
+                         pluralValue=""
+                         guidance="Type"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+        </localeStrings>
+        <localeStrings name="Report Design Language">
+            <enumValueString name="Assessable"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Assessable"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Library"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Library"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Type"
+                         fieldGroup="RCM-ComPlan"
+                         singularValue="Type"
+                         pluralValue=""
+                         guidance="Type"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+        </localeStrings>
+        <localeStrings name="Spanish">
+            <enumValueString name="Assessable"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Assessable"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Library"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Library"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Type"
+                         fieldGroup="RCM-ComPlan"
+                         singularValue="Tipo"
+                         pluralValue=""
+                         guidance="Type"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+        </localeStrings>
+        <localeStrings name="Portuguese">
+            <enumValueString name="Assessable"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Assessable"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Library"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Library"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Type"
+                         fieldGroup="RCM-ComPlan"
+                         singularValue="Tipo"
+                         pluralValue=""
+                         guidance="Type"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+        </localeStrings>
+        <localeStrings name="Simplified Chinese">
+            <enumValueString name="Assessable"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Assessable"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Library"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Library"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Type"
+                         fieldGroup="RCM-ComPlan"
+                         singularValue="类型"
+                         pluralValue=""
+                         guidance="Type"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+        </localeStrings>
+        <localeStrings name="French">
+            <enumValueString name="Assessable"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Assessable"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Library"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Library"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Type"
+                         fieldGroup="RCM-ComPlan"
+                         singularValue="Type"
+                         pluralValue=""
+                         guidance="Type"
+                         suppliedByVendor="false"
+                         overriddenByUser="false"/>
+        </localeStrings>
+        <localeStrings name="Japanese">
+            <enumValueString name="Assessable"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Assessable"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Library"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Library"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Type"
+                         fieldGroup="RCM-ComPlan"
+                         singularValue="タイプ"
+                         pluralValue=""
+                         guidance="Type"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+        </localeStrings>
+        <localeStrings name="German">
+            <enumValueString name="Assessable"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Assessable"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <enumValueString name="Library"
+                             field="Type"
+                             fieldGroup="RCM-ComPlan"
+                             value="Library"
+                             suppliedByVendor="false"
+                             overriddenByUser="false"/>
+            <fieldString name="Type"
+                         fieldGroup="RCM-ComPlan"
+                         singularValue="Typ"
+                         pluralValue=""
+                         guidance="Type"
+                         suppliedByVendor="false"
+                         overriddenByUser="true"/>
+        </localeStrings>
+    </objectStrings>
 	<systemAdminMode enabled="false"/>
 </openpagesConfiguration>
