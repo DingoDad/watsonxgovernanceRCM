@@ -1,7 +1,7 @@
 <!--=============================================================================
     Licensed Materials - Property of IBM
 
-    OpenPages GRC Platform (PID: 5725-D51)
+   
 
     © Copyright IBM Corporation 2017 - 2024. All Rights Reserved.
 
@@ -12,10 +12,11 @@
 	<systemAdminMode enabled="true"/>
 	<contentTypeRelationshipSets>
 		<contentTypeRelationshipSet name="SOX Object Model" inheritsFrom="">
-			<!-- FIRST THING! -->			
+		
 			<contentTypeRelationship parent="Register" child="CompliancePlan" type="Association" enabled="true" minParents="0" maxParents="2147483647" minChildren="0" maxChildren="2147483647"/>
 			<contentTypeRelationship parent="CompliancePlan" child="Obligation" type="Association" enabled="true" minParents="1" maxParents="2147483647" minChildren="0" maxChildren="2147483647"/>
 			<contentTypeRelationship parent="CompliancePlan" child="OblEval" type="Association" enabled="true" minParents="1" maxParents="2147483647" minChildren="0" maxChildren="2147483647"/>
+			<contentTypeRelationship parent="OblEval" child="Metric" type="Association" enabled="true" minParents="1" maxParents="2147483647" minChildren="0" maxChildren="2147483647"/>
 		</contentTypeRelationshipSet>
 	</contentTypeRelationshipSets>
 	<systemAdminMode enabled="false"/>
