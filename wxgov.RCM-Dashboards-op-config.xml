@@ -1,0 +1,1937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<openpagesConfiguration xmlFormatVersion="1.31">
+    <systemInformation name="opapp"
+                       retrievalDate="Wed Apr 23 08:14:29 EDT 2025"
+                       openpages="11.0.0.5.2 (Build: 9.0.0.5.2-18 2025/02/18 12:33:02)"
+
+                       installDate="2025-02-05 16:28:41.0"
+                       systemAdminMode="false"/>
+    <systemAdminMode enabled="false"/>
+
+    <dashboardViews
+                explicitListing="false">
+        <dashboardView
+                    name="watsonx-governance RCM Master"
+                    description=""
+                    suppliedByVendor="false"
+                    isEnabled="true"
+                    isActive="true"
+                    objectProfileName="watsonx-governance RCM Master">
+            <dashboardViewContent><![CDATA[{
+  "tabs" : [ {
+    "name" : "Home",
+    "type" : "custom",
+    "uuid" : "47d49ee4-4341-4912-93b5-0ab8171aca2b",
+    "panels" : [ {
+      "uuid" : "101bec44-ab02-4d07-947f-6f70b09272ee",
+      "name" : "Models",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "8aed867a-5c41-44cb-830a-d269ef0867d9",
+        "name" : "widget-0009",
+        "type" : "chart",
+        "objectTypeName" : "Register",
+        "chartType" : "doughnut",
+        "chartDataField" : "MRG-AIFacts-ModelUseCase:Risk Level",
+        "summaryType" : "COUNT"
+      }, {
+        "uuid" : "7541848c-4b2a-438b-b607-4eaa1ca3f0b7",
+        "name" : "widget-0022",
+        "type" : "chart",
+        "objectTypeName" : "Model",
+        "chartType" : "doughnut",
+        "chartDataField" : "MRG-MTS-Shared:FinalTier",
+        "summaryType" : "COUNT"
+      }, {
+        "uuid" : "78b08033-e522-4c8e-826e-f766313c99d2",
+        "name" : "widget-0001",
+        "type" : "filterCount",
+        "objectTypeName" : "Model",
+        "filterName" : "Approved Models"
+      }, {
+        "uuid" : "912957da-3d0a-428a-8a40-e0df1c518e55",
+        "name" : "widget-0000",
+        "type" : "filterCount",
+        "objectTypeName" : "Model",
+        "filterName" : "Models added in the last 30 days"
+      }, {
+        "uuid" : "81af1696-2e9e-42a9-8884-dd32ca0ca397",
+        "name" : "widget-0008",
+        "type" : "createNew",
+        "objectTypeName" : "Register",
+        "label" : "SR 11-7 Information"
+      } ]
+    }, {
+      "uuid" : "c970b924-bcef-419d-af14-7769aada3278",
+      "name" : "Model Use Cases by Lifecycle Phase",
+      "type" : "chart",
+      "isLocked" : true,
+      "widgets" : [ ],
+      "objectTypeName" : "Register",
+      "chartType" : "doughnut",
+      "chartDataField" : "MRG-AIFacts-ModelUseCase:Status",
+      "sortDirection" : "None",
+      "summaryType" : "COUNT"
+    }, {
+      "uuid" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774",
+      "name" : "Useful Links",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "c5db616a-018d-4167-af4b-51bd3202719a",
+        "name" : "widget-0016",
+        "type" : "staticLink",
+        "label" : "Responsible AI Institute",
+        "url" : "https://www.responsible.ai/"
+      }, {
+        "uuid" : "4f759dab-916a-40e2-ab4b-a6cc725ae490",
+        "name" : "widget-0017",
+        "type" : "staticLink",
+        "label" : "Model Risk Management - Comptroller's Handbook (OCC)",
+        "url" : "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/pub-ch-model-risk.pdf"
+      }, {
+        "uuid" : "2ce33781-51ae-4ea6-8c4d-df282acc90e8",
+        "name" : "widget-0018",
+        "type" : "staticLink",
+        "label" : "EU Artificial Intelligence Act",
+        "url" : "https://www.europarl.europa.eu/doceo/document/TA-9-2024-0138_EN.html"
+      }, {
+        "uuid" : "62915ee4-0c83-43c5-9e4b-a84acbcdf64c",
+        "name" : "widget-0019",
+        "type" : "staticLink",
+        "label" : "SR 11-7 Information",
+        "url" : "https://www.federalreserve.gov/supervisionreg/srletters/sr1107a1.pdf"
+      }, {
+        "uuid" : "f92157db-50e4-46f9-a857-486c476016e8",
+        "name" : "widget-0021",
+        "type" : "staticLink",
+        "label" : "E-23 Information",
+        "url" : "https://www.osfi-bsif.gc.ca/Eng/Docs/E23.pdf"
+      }, {
+        "uuid" : "94f407b7-31e4-46bf-a7ea-bbe7ce6bd997",
+        "name" : "widget-0010",
+        "type" : "staticLink",
+        "label" : "NYC Local Law 144",
+        "url" : "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-1.pdf"
+      } ]
+    }, {
+      "uuid" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad",
+      "name" : "My Tasks",
+      "type" : "myTasks",
+      "isLocked" : true,
+      "widgets" : [ ],
+      "dueSoonCutoff" : 2,
+      "dueDateCategoryColors" : {
+        "overdue" : "red",
+        "soon" : "yellow",
+        "later" : "green",
+        "none" : "neutral-light"
+      }
+    }, {
+      "uuid" : "a30af260-7f09-43b9-ad32-1b5d2496db8b",
+      "name" : "My Reg Data",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "e8ab4cff-4e0c-48d0-8aa2-1769a7b3b4f8",
+        "name" : "widget-0013",
+        "type" : "filterCount",
+        "objectTypeName" : "QuestionnaireAssessment",
+        "filterName" : "AI Regulatory Applicability Assessments"
+      } ]
+    }, {
+      "uuid" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4",
+      "name" : "Controls by Effectiveness",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "5fd6c0e7-f5d7-489d-a153-2d894fc60a86",
+        "name" : "widget-0011",
+        "type" : "chart",
+        "objectTypeName" : "SOXControl",
+        "chartType" : "doughnut",
+        "chartDataField" : "OPSS-Ctl:Operating Effectiveness",
+        "summaryType" : "COUNT"
+      }, {
+        "uuid" : "ed8520fb-e3a1-4744-8e3f-4d9045c4bbc3",
+        "name" : "widget-0012",
+        "type" : "chart",
+        "objectTypeName" : "SOXControl",
+        "chartType" : "bar",
+        "chartDataField" : "OPSS-Ctl:Design Effectiveness",
+        "summaryType" : "COUNT"
+      } ]
+    }, {
+      "uuid" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c",
+      "name" : "My Favorites",
+      "type" : "favoriteObjects",
+      "isLocked" : true,
+      "widgets" : [ ],
+      "column2Field" : "description"
+    }, {
+      "uuid" : "39aad92c-e31c-4b68-9099-029b0a2db72f",
+      "name" : "Compliance Plan Library",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "d274d96e-1152-496c-bef8-574695c3cc9d",
+        "name" : "widget-0003",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "Library Compliance Plans"
+      }, {
+        "uuid" : "2e075a7f-bb43-4ad9-bff3-2170848c5564",
+        "name" : "widget-0002",
+        "type" : "chart",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "Library Compliance Plans",
+        "chartType" : "doughnut",
+        "chartDataField" : "watsonx-CompliancePlan:Distribution Status",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      }, {
+        "uuid" : "1afaec71-db08-406b-82c5-15c078eecdca",
+        "name" : "widget-0004",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "My Library Compliance Plan"
+      }, {
+        "uuid" : "77d8824e-1a36-44ff-9fec-46e830d32b0b",
+        "name" : "widget-0005",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "Ready for Distribution"
+      } ]
+    }, {
+      "uuid" : "9f1512f5-9b9a-4f56-a039-34bfdc124c8f",
+      "name" : "AI Use Case Compliance",
+      "type" : "chart",
+      "isLocked" : true,
+      "widgets" : [ ],
+      "objectTypeName" : "Register",
+      "chartType" : "doughnut",
+      "chartDataField" : "watsonx-Compliance:Compliance Position",
+      "sortDirection" : "None",
+      "summaryType" : "COUNT"
+    }, {
+      "uuid" : "19f278ed-0b7d-41a1-979f-7c73732feede",
+      "name" : "Use Case EU AI Risk Ratings",
+      "type" : "chart",
+      "isLocked" : true,
+      "widgets" : [ ],
+      "objectTypeName" : "Register",
+      "chartType" : "doughnut",
+      "chartDataField" : "watsonx-Compliance:EU AI Risk Category",
+      "sortDirection" : "None",
+      "summaryType" : "COUNT"
+    }, {
+      "uuid" : "3958735c-abb5-4235-9356-228dd4dd1098",
+      "name" : "Compliance Plan Assessments",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "b5c9852c-5473-42de-b824-7750be36ee32",
+        "name" : "widget-0006",
+        "type" : "chart",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "Assessable Compliance Plans",
+        "chartType" : "doughnut",
+        "chartDataField" : "watsonx-CompliancePlan:Compliance Assessment Status",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      }, {
+        "uuid" : "06f03919-6333-4062-b33e-57bc79b28d9b",
+        "name" : "widget-0007",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "My Assessable Compliance Plans"
+      }, {
+        "uuid" : "52ed71f3-0153-4796-80f8-91241c6e3510",
+        "name" : "widget-0014",
+        "type" : "chart",
+        "objectTypeName" : "OblEval",
+        "filterName" : "Assessable",
+        "chartType" : "doughnut",
+        "chartDataField" : "watsonx-ObligationEval-Shared:Assessment Result",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      }, {
+        "uuid" : "3460032d-8a90-463b-be46-e0ffe398031e",
+        "name" : "widget-0015",
+        "type" : "chart",
+        "objectTypeName" : "OblEval",
+        "filterName" : "Assessable",
+        "chartType" : "bar",
+        "chartDataField" : "watsonx-Obligation-Shared:Compliance Assessment Status",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      } ]
+    }, {
+      "uuid" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5",
+      "name" : "Compliance Outputs",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "f09bfb8b-f921-452c-9ee5-1070f73eabd8",
+        "name" : "widget-0020",
+        "type" : "filterCount",
+        "objectTypeName" : "OblEval",
+        "filterName" : "Assessment Not Met"
+      }, {
+        "uuid" : "c6d57d9e-337a-439a-8785-4cdaad0e171a",
+        "name" : "widget-0023",
+        "type" : "filterCount",
+        "objectTypeName" : "Register"
+      }, {
+        "uuid" : "227681f6-4561-49c7-ac87-89b7de0fb257",
+        "name" : "widget-0024",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "Compliance Plans with Not Met Obligations"
+      }, {
+        "uuid" : "4715c4c7-f581-4653-bd7e-dd75588c59b7",
+        "name" : "widget-0025",
+        "type" : "chart",
+        "objectTypeName" : "Register",
+        "chartType" : "doughnut",
+        "chartDataField" : "watsonx-Compliance:Compliance Position",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      } ]
+    } ],
+    "layouts" : {
+      "xxl" : [ {
+        "x" : 0,
+        "y" : 0,
+        "w" : 1,
+        "h" : 21,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 1,
+        "y" : 0,
+        "w" : 1,
+        "h" : 32,
+        "i" : "39aad92c-e31c-4b68-9099-029b0a2db72f"
+      }, {
+        "x" : 2,
+        "y" : 0,
+        "w" : 1,
+        "h" : 32,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 3,
+        "y" : 0,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      }, {
+        "x" : 0,
+        "y" : 21,
+        "w" : 1,
+        "h" : 23,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 1,
+        "y" : 32,
+        "w" : 1,
+        "h" : 36,
+        "i" : "101bec44-ab02-4d07-947f-6f70b09272ee"
+      }, {
+        "x" : 2,
+        "y" : 32,
+        "w" : 1,
+        "h" : 16,
+        "i" : "19f278ed-0b7d-41a1-979f-7c73732feede"
+      }, {
+        "x" : 3,
+        "y" : 32,
+        "w" : 1,
+        "h" : 16,
+        "i" : "9f1512f5-9b9a-4f56-a039-34bfdc124c8f"
+      }, {
+        "x" : 0,
+        "y" : 44,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 2,
+        "y" : 48,
+        "w" : 2,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 2,
+        "y" : 60,
+        "w" : 1,
+        "h" : 17,
+        "i" : "c970b924-bcef-419d-af14-7769aada3278"
+      }, {
+        "x" : 3,
+        "y" : 60,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      } ],
+      "xl" : [ {
+        "x" : 2,
+        "y" : 0,
+        "w" : 1,
+        "h" : 36,
+        "i" : "101bec44-ab02-4d07-947f-6f70b09272ee"
+      }, {
+        "x" : 3,
+        "y" : 0,
+        "w" : 1,
+        "h" : 17,
+        "i" : "c970b924-bcef-419d-af14-7769aada3278"
+      }, {
+        "x" : 3,
+        "y" : 17,
+        "w" : 1,
+        "h" : 23,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 0,
+        "y" : 0,
+        "w" : 1,
+        "h" : 20,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 1,
+        "y" : 0,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 2,
+        "y" : 36,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      }, {
+        "x" : 0,
+        "y" : 22,
+        "w" : 2,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 3,
+        "y" : 40,
+        "w" : 1,
+        "h" : 32,
+        "i" : "39aad92c-e31c-4b68-9099-029b0a2db72f"
+      }, {
+        "x" : 0,
+        "y" : 34,
+        "w" : 1,
+        "h" : 16,
+        "i" : "9f1512f5-9b9a-4f56-a039-34bfdc124c8f"
+      }, {
+        "x" : 1,
+        "y" : 34,
+        "w" : 1,
+        "h" : 16,
+        "i" : "19f278ed-0b7d-41a1-979f-7c73732feede"
+      }, {
+        "x" : 2,
+        "y" : 34,
+        "w" : 1,
+        "h" : 32,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 3,
+        "y" : 34,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      } ],
+      "lg" : [ {
+        "x" : 0,
+        "y" : 0,
+        "w" : 1,
+        "h" : 36,
+        "i" : "101bec44-ab02-4d07-947f-6f70b09272ee"
+      }, {
+        "x" : 1,
+        "y" : 14,
+        "w" : 1,
+        "h" : 17,
+        "i" : "c970b924-bcef-419d-af14-7769aada3278"
+      }, {
+        "x" : 1,
+        "y" : 16,
+        "w" : 1,
+        "h" : 23,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 0,
+        "y" : 19,
+        "w" : 1,
+        "h" : 20,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 0,
+        "y" : 20,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 0,
+        "y" : 22,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      }, {
+        "x" : 1,
+        "y" : 22,
+        "w" : 1,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 1,
+        "y" : 23,
+        "w" : 1,
+        "h" : 32,
+        "i" : "39aad92c-e31c-4b68-9099-029b0a2db72f"
+      }, {
+        "x" : 0,
+        "y" : 24,
+        "w" : 1,
+        "h" : 16,
+        "i" : "9f1512f5-9b9a-4f56-a039-34bfdc124c8f"
+      }, {
+        "x" : 1,
+        "y" : 24,
+        "w" : 1,
+        "h" : 16,
+        "i" : "19f278ed-0b7d-41a1-979f-7c73732feede"
+      }, {
+        "x" : 0,
+        "y" : 25,
+        "w" : 1,
+        "h" : 32,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 1,
+        "y" : 25,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      } ],
+      "md" : [ {
+        "x" : 0,
+        "y" : 0,
+        "w" : 1,
+        "h" : 36,
+        "i" : "101bec44-ab02-4d07-947f-6f70b09272ee"
+      }, {
+        "x" : 1,
+        "y" : 4,
+        "w" : 1,
+        "h" : 17,
+        "i" : "c970b924-bcef-419d-af14-7769aada3278"
+      }, {
+        "x" : 1,
+        "y" : 6,
+        "w" : 1,
+        "h" : 23,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 0,
+        "y" : 9,
+        "w" : 1,
+        "h" : 20,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 0,
+        "y" : 10,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 0,
+        "y" : 12,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      }, {
+        "x" : 1,
+        "y" : 12,
+        "w" : 1,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 1,
+        "y" : 13,
+        "w" : 1,
+        "h" : 32,
+        "i" : "39aad92c-e31c-4b68-9099-029b0a2db72f"
+      }, {
+        "x" : 0,
+        "y" : 14,
+        "w" : 1,
+        "h" : 16,
+        "i" : "9f1512f5-9b9a-4f56-a039-34bfdc124c8f"
+      }, {
+        "x" : 1,
+        "y" : 14,
+        "w" : 1,
+        "h" : 16,
+        "i" : "19f278ed-0b7d-41a1-979f-7c73732feede"
+      }, {
+        "x" : 0,
+        "y" : 15,
+        "w" : 1,
+        "h" : 32,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 1,
+        "y" : 15,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      } ],
+      "sm" : [ {
+        "x" : 0,
+        "y" : 0,
+        "w" : 1,
+        "h" : 36,
+        "i" : "101bec44-ab02-4d07-947f-6f70b09272ee"
+      }, {
+        "x" : 0,
+        "y" : 9,
+        "w" : 1,
+        "h" : 17,
+        "i" : "c970b924-bcef-419d-af14-7769aada3278"
+      }, {
+        "x" : 0,
+        "y" : 13,
+        "w" : 1,
+        "h" : 23,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 0,
+        "y" : 18,
+        "w" : 1,
+        "h" : 20,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 0,
+        "y" : 20,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 0,
+        "y" : 24,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      }, {
+        "x" : 0,
+        "y" : 25,
+        "w" : 1,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 0,
+        "y" : 27,
+        "w" : 1,
+        "h" : 32,
+        "i" : "39aad92c-e31c-4b68-9099-029b0a2db72f"
+      }, {
+        "x" : 0,
+        "y" : 28,
+        "w" : 1,
+        "h" : 16,
+        "i" : "9f1512f5-9b9a-4f56-a039-34bfdc124c8f"
+      }, {
+        "x" : 0,
+        "y" : 29,
+        "w" : 1,
+        "h" : 16,
+        "i" : "19f278ed-0b7d-41a1-979f-7c73732feede"
+      }, {
+        "x" : 0,
+        "y" : 30,
+        "w" : 1,
+        "h" : 32,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 0,
+        "y" : 31,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      } ]
+    }
+  }, {
+    "name" : "My Tasks",
+    "isLocked" : true,
+    "type" : "myTasks",
+    "uuid" : "eb61219e-4581-446c-9022-4c990c542368",
+    "panels" : [ ],
+    "layouts" : {
+      "xxl" : [ ],
+      "xl" : [ ],
+      "lg" : [ ],
+      "md" : [ ],
+      "sm" : [ ]
+    }
+  }, {
+    "name" : "Subscription Tasks",
+    "isLocked" : true,
+    "type" : "subscribed",
+    "uuid" : "6e675b5b-337d-4276-b1b2-f29faf50d58c",
+    "panels" : [ ],
+    "layouts" : {
+      "xxl" : [ ],
+      "xl" : [ ],
+      "lg" : [ ],
+      "md" : [ ],
+      "sm" : [ ]
+    }
+  }, {
+    "name" : "Oversight Tasks",
+    "isLocked" : true,
+    "type" : "oversight",
+    "uuid" : "b5911bf3-8f68-45d9-91bb-ba0e9b87139c",
+    "panels" : [ ],
+    "layouts" : {
+      "xxl" : [ ],
+      "xl" : [ ],
+      "lg" : [ ],
+      "md" : [ ],
+      "sm" : [ ]
+    }
+  } ]
+}]]>
+            </dashboardViewContent>
+        </dashboardView>
+        <dashboardView
+                    name="watsonx-governance RCM - Compliance Officer"
+                    description=""
+                    suppliedByVendor="false"
+                    isEnabled="true"
+                    isActive="true"
+                    objectProfileName="watsonx-governance RCM - Compliance Officer">
+            <dashboardViewContent><![CDATA[{
+  "tabs" : [ {
+    "name" : "Home",
+    "type" : "custom",
+    "uuid" : "47d49ee4-4341-4912-93b5-0ab8171aca2b",
+    "panels" : [ {
+      "uuid" : "101bec44-ab02-4d07-947f-6f70b09272ee",
+      "name" : "Models",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "8aed867a-5c41-44cb-830a-d269ef0867d9",
+        "name" : "widget-0009",
+        "type" : "chart",
+        "objectTypeName" : "Register",
+        "chartType" : "doughnut",
+        "chartDataField" : "MRG-AIFacts-ModelUseCase:Risk Level",
+        "summaryType" : "COUNT"
+      }, {
+        "uuid" : "7541848c-4b2a-438b-b607-4eaa1ca3f0b7",
+        "name" : "widget-0022",
+        "type" : "chart",
+        "objectTypeName" : "Model",
+        "chartType" : "doughnut",
+        "chartDataField" : "MRG-MTS-Shared:FinalTier",
+        "summaryType" : "COUNT"
+      }, {
+        "uuid" : "78b08033-e522-4c8e-826e-f766313c99d2",
+        "name" : "widget-0001",
+        "type" : "filterCount",
+        "objectTypeName" : "Model",
+        "filterName" : "Approved Models"
+      }, {
+        "uuid" : "912957da-3d0a-428a-8a40-e0df1c518e55",
+        "name" : "widget-0000",
+        "type" : "filterCount",
+        "objectTypeName" : "Model",
+        "filterName" : "Models added in the last 30 days"
+      }, {
+        "uuid" : "81af1696-2e9e-42a9-8884-dd32ca0ca397",
+        "name" : "widget-0008",
+        "type" : "createNew",
+        "objectTypeName" : "Register",
+        "label" : "SR 11-7 Information"
+      } ]
+    }, {
+      "uuid" : "c970b924-bcef-419d-af14-7769aada3278",
+      "name" : "Model Use Cases by Lifecycle Phase",
+      "type" : "chart",
+      "isLocked" : true,
+      "widgets" : [ ],
+      "objectTypeName" : "Register",
+      "chartType" : "doughnut",
+      "chartDataField" : "MRG-AIFacts-ModelUseCase:Status",
+      "sortDirection" : "None",
+      "summaryType" : "COUNT"
+    }, {
+      "uuid" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774",
+      "name" : "Useful Links",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "c5db616a-018d-4167-af4b-51bd3202719a",
+        "name" : "widget-0016",
+        "type" : "staticLink",
+        "label" : "Responsible AI Institute",
+        "url" : "https://www.responsible.ai/"
+      }, {
+        "uuid" : "4f759dab-916a-40e2-ab4b-a6cc725ae490",
+        "name" : "widget-0017",
+        "type" : "staticLink",
+        "label" : "Model Risk Management - Comptroller's Handbook (OCC)",
+        "url" : "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/pub-ch-model-risk.pdf"
+      }, {
+        "uuid" : "2ce33781-51ae-4ea6-8c4d-df282acc90e8",
+        "name" : "widget-0018",
+        "type" : "staticLink",
+        "label" : "EU Artificial Intelligence Act",
+        "url" : "https://www.europarl.europa.eu/doceo/document/TA-9-2024-0138_EN.html"
+      }, {
+        "uuid" : "62915ee4-0c83-43c5-9e4b-a84acbcdf64c",
+        "name" : "widget-0019",
+        "type" : "staticLink",
+        "label" : "SR 11-7 Information",
+        "url" : "https://www.federalreserve.gov/supervisionreg/srletters/sr1107a1.pdf"
+      }, {
+        "uuid" : "f92157db-50e4-46f9-a857-486c476016e8",
+        "name" : "widget-0021",
+        "type" : "staticLink",
+        "label" : "E-23 Information",
+        "url" : "https://www.osfi-bsif.gc.ca/Eng/Docs/E23.pdf"
+      }, {
+        "uuid" : "94f407b7-31e4-46bf-a7ea-bbe7ce6bd997",
+        "name" : "widget-0010",
+        "type" : "staticLink",
+        "label" : "NYC Local Law 144",
+        "url" : "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-1.pdf"
+      } ]
+    }, {
+      "uuid" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad",
+      "name" : "My Tasks",
+      "type" : "myTasks",
+      "isLocked" : true,
+      "widgets" : [ ],
+      "dueSoonCutoff" : 2,
+      "dueDateCategoryColors" : {
+        "overdue" : "red",
+        "soon" : "yellow",
+        "later" : "green",
+        "none" : "neutral-light"
+      }
+    }, {
+      "uuid" : "a30af260-7f09-43b9-ad32-1b5d2496db8b",
+      "name" : "My Reg Data",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "e8ab4cff-4e0c-48d0-8aa2-1769a7b3b4f8",
+        "name" : "widget-0013",
+        "type" : "filterCount",
+        "objectTypeName" : "QuestionnaireAssessment",
+        "filterName" : "AI Regulatory Applicability Assessments"
+      } ]
+    }, {
+      "uuid" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4",
+      "name" : "Controls by Effectiveness",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "5fd6c0e7-f5d7-489d-a153-2d894fc60a86",
+        "name" : "widget-0011",
+        "type" : "chart",
+        "objectTypeName" : "SOXControl",
+        "chartType" : "doughnut",
+        "chartDataField" : "OPSS-Ctl:Operating Effectiveness",
+        "summaryType" : "COUNT"
+      }, {
+        "uuid" : "ed8520fb-e3a1-4744-8e3f-4d9045c4bbc3",
+        "name" : "widget-0012",
+        "type" : "chart",
+        "objectTypeName" : "SOXControl",
+        "chartType" : "bar",
+        "chartDataField" : "OPSS-Ctl:Design Effectiveness",
+        "summaryType" : "COUNT"
+      } ]
+    }, {
+      "uuid" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c",
+      "name" : "My Favorites",
+      "type" : "favoriteObjects",
+      "isLocked" : true,
+      "widgets" : [ ],
+      "column2Field" : "description"
+    }, {
+      "uuid" : "39aad92c-e31c-4b68-9099-029b0a2db72f",
+      "name" : "Compliance Plan Library",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "d274d96e-1152-496c-bef8-574695c3cc9d",
+        "name" : "widget-0003",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "Library Compliance Plans"
+      }, {
+        "uuid" : "2e075a7f-bb43-4ad9-bff3-2170848c5564",
+        "name" : "widget-0002",
+        "type" : "chart",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "Library Compliance Plans",
+        "chartType" : "doughnut",
+        "chartDataField" : "watsonx-CompliancePlan:Distribution Status",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      }, {
+        "uuid" : "1afaec71-db08-406b-82c5-15c078eecdca",
+        "name" : "widget-0004",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "My Library Compliance Plan"
+      }, {
+        "uuid" : "77d8824e-1a36-44ff-9fec-46e830d32b0b",
+        "name" : "widget-0005",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "Ready for Distribution"
+      } ]
+    }, {
+      "uuid" : "19f278ed-0b7d-41a1-979f-7c73732feede",
+      "name" : "Use Case EU AI Risk Ratings",
+      "type" : "chart",
+      "isLocked" : true,
+      "widgets" : [ ],
+      "objectTypeName" : "Register",
+      "chartType" : "doughnut",
+      "chartDataField" : "watsonx-Compliance:EU AI Risk Category",
+      "sortDirection" : "None",
+      "summaryType" : "COUNT"
+    }, {
+      "uuid" : "3958735c-abb5-4235-9356-228dd4dd1098",
+      "name" : "Compliance Plan Assessments",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "b5c9852c-5473-42de-b824-7750be36ee32",
+        "name" : "widget-0006",
+        "type" : "chart",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "Assessable Compliance Plans",
+        "chartType" : "doughnut",
+        "chartDataField" : "watsonx-CompliancePlan:Compliance Assessment Status",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      }, {
+        "uuid" : "06f03919-6333-4062-b33e-57bc79b28d9b",
+        "name" : "widget-0007",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "My Assessable Compliance Plans"
+      }, {
+        "uuid" : "70bc591e-f09c-4d55-939b-d5b014225568",
+        "name" : "widget-0026",
+        "type" : "filterCount",
+        "objectTypeName" : "OblEval",
+        "filterName" : "My Obligations to Assess"
+      }, {
+        "uuid" : "3460032d-8a90-463b-be46-e0ffe398031e",
+        "name" : "widget-0015",
+        "type" : "chart",
+        "objectTypeName" : "OblEval",
+        "filterName" : "Assessable",
+        "chartType" : "bar",
+        "chartDataField" : "watsonx-Obligation-Shared:Compliance Assessment Status",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      }, {
+        "uuid" : "52ed71f3-0153-4796-80f8-91241c6e3510",
+        "name" : "widget-0014",
+        "type" : "chart",
+        "objectTypeName" : "OblEval",
+        "filterName" : "Assessable",
+        "chartType" : "doughnut",
+        "chartDataField" : "watsonx-ObligationEval-Shared:Assessment Result",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      } ]
+    }, {
+      "uuid" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5",
+      "name" : "Compliance Outputs",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "f09bfb8b-f921-452c-9ee5-1070f73eabd8",
+        "name" : "widget-0020",
+        "type" : "filterCount",
+        "objectTypeName" : "OblEval",
+        "filterName" : "Assessment Not Met"
+      }, {
+        "uuid" : "c6d57d9e-337a-439a-8785-4cdaad0e171a",
+        "name" : "widget-0023",
+        "type" : "filterCount",
+        "objectTypeName" : "Register"
+      }, {
+        "uuid" : "227681f6-4561-49c7-ac87-89b7de0fb257",
+        "name" : "widget-0024",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "Compliance Plans with Not Met Obligations"
+      }, {
+        "uuid" : "4715c4c7-f581-4653-bd7e-dd75588c59b7",
+        "name" : "widget-0025",
+        "type" : "chart",
+        "objectTypeName" : "Register",
+        "chartType" : "doughnut",
+        "chartDataField" : "watsonx-Compliance:Compliance Position",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      } ]
+    }, {
+      "uuid" : "aa88e353-a9b9-4f7b-b871-6c266fc72f55",
+      "name" : "AI Use Case Compliance",
+      "type" : "chart",
+      "isLocked" : true,
+      "widgets" : [ ],
+      "objectTypeName" : "Register",
+      "chartType" : "bar",
+      "chartDataField" : "watsonx-Compliance:Compliance Position",
+      "sortDirection" : "None",
+      "summaryType" : "COUNT"
+    } ],
+    "layouts" : {
+      "xxl" : [ {
+        "x" : 0,
+        "y" : 0,
+        "w" : 1,
+        "h" : 21,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 1,
+        "y" : 0,
+        "w" : 1,
+        "h" : 32,
+        "i" : "39aad92c-e31c-4b68-9099-029b0a2db72f"
+      }, {
+        "x" : 2,
+        "y" : 0,
+        "w" : 1,
+        "h" : 38,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 3,
+        "y" : 0,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      }, {
+        "x" : 0,
+        "y" : 21,
+        "w" : 1,
+        "h" : 23,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 1,
+        "y" : 32,
+        "w" : 1,
+        "h" : 36,
+        "i" : "101bec44-ab02-4d07-947f-6f70b09272ee"
+      }, {
+        "x" : 3,
+        "y" : 32,
+        "w" : 1,
+        "h" : 18,
+        "i" : "aa88e353-a9b9-4f7b-b871-6c266fc72f55"
+      }, {
+        "x" : 2,
+        "y" : 38,
+        "w" : 1,
+        "h" : 18,
+        "i" : "19f278ed-0b7d-41a1-979f-7c73732feede"
+      }, {
+        "x" : 0,
+        "y" : 44,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 2,
+        "y" : 56,
+        "w" : 2,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 2,
+        "y" : 68,
+        "w" : 1,
+        "h" : 17,
+        "i" : "c970b924-bcef-419d-af14-7769aada3278"
+      }, {
+        "x" : 3,
+        "y" : 68,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      } ],
+      "xl" : [ {
+        "x" : 0,
+        "y" : 0,
+        "w" : 1,
+        "h" : 20,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 1,
+        "y" : 0,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 2,
+        "y" : 0,
+        "w" : 1,
+        "h" : 36,
+        "i" : "101bec44-ab02-4d07-947f-6f70b09272ee"
+      }, {
+        "x" : 3,
+        "y" : 0,
+        "w" : 1,
+        "h" : 17,
+        "i" : "c970b924-bcef-419d-af14-7769aada3278"
+      }, {
+        "x" : 3,
+        "y" : 17,
+        "w" : 1,
+        "h" : 23,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 0,
+        "y" : 20,
+        "w" : 2,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 0,
+        "y" : 32,
+        "w" : 1,
+        "h" : 18,
+        "i" : "aa88e353-a9b9-4f7b-b871-6c266fc72f55"
+      }, {
+        "x" : 1,
+        "y" : 32,
+        "w" : 1,
+        "h" : 18,
+        "i" : "19f278ed-0b7d-41a1-979f-7c73732feede"
+      }, {
+        "x" : 2,
+        "y" : 36,
+        "w" : 1,
+        "h" : 38,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 3,
+        "y" : 40,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      }, {
+        "x" : 3,
+        "y" : 72,
+        "w" : 1,
+        "h" : 32,
+        "i" : "39aad92c-e31c-4b68-9099-029b0a2db72f"
+      }, {
+        "x" : 2,
+        "y" : 74,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      } ],
+      "lg" : [ {
+        "x" : 0,
+        "y" : 0,
+        "w" : 1,
+        "h" : 36,
+        "i" : "101bec44-ab02-4d07-947f-6f70b09272ee"
+      }, {
+        "x" : 1,
+        "y" : 14,
+        "w" : 1,
+        "h" : 17,
+        "i" : "c970b924-bcef-419d-af14-7769aada3278"
+      }, {
+        "x" : 1,
+        "y" : 16,
+        "w" : 1,
+        "h" : 23,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 0,
+        "y" : 19,
+        "w" : 1,
+        "h" : 20,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 0,
+        "y" : 20,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 0,
+        "y" : 22,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      }, {
+        "x" : 1,
+        "y" : 22,
+        "w" : 1,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 1,
+        "y" : 23,
+        "w" : 1,
+        "h" : 32,
+        "i" : "39aad92c-e31c-4b68-9099-029b0a2db72f"
+      }, {
+        "x" : 1,
+        "y" : 24,
+        "w" : 1,
+        "h" : 18,
+        "i" : "19f278ed-0b7d-41a1-979f-7c73732feede"
+      }, {
+        "x" : 0,
+        "y" : 25,
+        "w" : 1,
+        "h" : 38,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 1,
+        "y" : 25,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      }, {
+        "x" : 0,
+        "y" : 26,
+        "w" : 1,
+        "h" : 18,
+        "i" : "aa88e353-a9b9-4f7b-b871-6c266fc72f55"
+      } ],
+      "md" : [ {
+        "x" : 0,
+        "y" : 0,
+        "w" : 1,
+        "h" : 36,
+        "i" : "101bec44-ab02-4d07-947f-6f70b09272ee"
+      }, {
+        "x" : 1,
+        "y" : 4,
+        "w" : 1,
+        "h" : 17,
+        "i" : "c970b924-bcef-419d-af14-7769aada3278"
+      }, {
+        "x" : 1,
+        "y" : 6,
+        "w" : 1,
+        "h" : 23,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 0,
+        "y" : 9,
+        "w" : 1,
+        "h" : 20,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 0,
+        "y" : 10,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 0,
+        "y" : 12,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      }, {
+        "x" : 1,
+        "y" : 12,
+        "w" : 1,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 1,
+        "y" : 13,
+        "w" : 1,
+        "h" : 32,
+        "i" : "39aad92c-e31c-4b68-9099-029b0a2db72f"
+      }, {
+        "x" : 1,
+        "y" : 14,
+        "w" : 1,
+        "h" : 18,
+        "i" : "19f278ed-0b7d-41a1-979f-7c73732feede"
+      }, {
+        "x" : 0,
+        "y" : 15,
+        "w" : 1,
+        "h" : 38,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 1,
+        "y" : 15,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      }, {
+        "x" : 0,
+        "y" : 16,
+        "w" : 1,
+        "h" : 18,
+        "i" : "aa88e353-a9b9-4f7b-b871-6c266fc72f55"
+      } ],
+      "sm" : [ {
+        "x" : 0,
+        "y" : 0,
+        "w" : 1,
+        "h" : 36,
+        "i" : "101bec44-ab02-4d07-947f-6f70b09272ee"
+      }, {
+        "x" : 0,
+        "y" : 9,
+        "w" : 1,
+        "h" : 17,
+        "i" : "c970b924-bcef-419d-af14-7769aada3278"
+      }, {
+        "x" : 0,
+        "y" : 13,
+        "w" : 1,
+        "h" : 23,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 0,
+        "y" : 18,
+        "w" : 1,
+        "h" : 20,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 0,
+        "y" : 20,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 0,
+        "y" : 24,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      }, {
+        "x" : 0,
+        "y" : 25,
+        "w" : 1,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 0,
+        "y" : 27,
+        "w" : 1,
+        "h" : 32,
+        "i" : "39aad92c-e31c-4b68-9099-029b0a2db72f"
+      }, {
+        "x" : 0,
+        "y" : 29,
+        "w" : 1,
+        "h" : 18,
+        "i" : "19f278ed-0b7d-41a1-979f-7c73732feede"
+      }, {
+        "x" : 0,
+        "y" : 30,
+        "w" : 1,
+        "h" : 38,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 0,
+        "y" : 31,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      }, {
+        "x" : 0,
+        "y" : 32,
+        "w" : 1,
+        "h" : 18,
+        "i" : "aa88e353-a9b9-4f7b-b871-6c266fc72f55"
+      } ]
+    }
+  }, {
+    "name" : "My Tasks",
+    "isLocked" : true,
+    "type" : "myTasks",
+    "uuid" : "eb61219e-4581-446c-9022-4c990c542368",
+    "panels" : [ ],
+    "layouts" : {
+      "xxl" : [ ],
+      "xl" : [ ],
+      "lg" : [ ],
+      "md" : [ ],
+      "sm" : [ ]
+    }
+  }, {
+    "name" : "Subscription Tasks",
+    "isLocked" : true,
+    "type" : "subscribed",
+    "uuid" : "6e675b5b-337d-4276-b1b2-f29faf50d58c",
+    "panels" : [ ],
+    "layouts" : {
+      "xxl" : [ ],
+      "xl" : [ ],
+      "lg" : [ ],
+      "md" : [ ],
+      "sm" : [ ]
+    }
+  }, {
+    "name" : "Oversight Tasks",
+    "isLocked" : true,
+    "type" : "oversight",
+    "uuid" : "b5911bf3-8f68-45d9-91bb-ba0e9b87139c",
+    "panels" : [ ],
+    "layouts" : {
+      "xxl" : [ ],
+      "xl" : [ ],
+      "lg" : [ ],
+      "md" : [ ],
+      "sm" : [ ]
+    }
+  } ]
+}]]>
+            </dashboardViewContent>
+        </dashboardView>
+        <dashboardView
+                    name="watsonx-governance RCM - Use Case Owner"
+                    description=""
+                    suppliedByVendor="false"
+                    isEnabled="true"
+                    isActive="true"
+                    objectProfileName="watsonx-governance RCM - Use Case Owner">
+            <dashboardViewContent><![CDATA[{
+  "tabs" : [ {
+    "name" : "Home",
+    "type" : "custom",
+    "uuid" : "47d49ee4-4341-4912-93b5-0ab8171aca2b",
+    "panels" : [ {
+      "uuid" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774",
+      "name" : "Useful Links",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "c5db616a-018d-4167-af4b-51bd3202719a",
+        "name" : "widget-0016",
+        "type" : "staticLink",
+        "label" : "Responsible AI Institute",
+        "url" : "https://www.responsible.ai/"
+      }, {
+        "uuid" : "4f759dab-916a-40e2-ab4b-a6cc725ae490",
+        "name" : "widget-0017",
+        "type" : "staticLink",
+        "label" : "Model Risk Management - Comptroller's Handbook (OCC)",
+        "url" : "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/model-risk-management/pub-ch-model-risk.pdf"
+      }, {
+        "uuid" : "2ce33781-51ae-4ea6-8c4d-df282acc90e8",
+        "name" : "widget-0018",
+        "type" : "staticLink",
+        "label" : "EU Artificial Intelligence Act",
+        "url" : "https://www.europarl.europa.eu/doceo/document/TA-9-2024-0138_EN.html"
+      }, {
+        "uuid" : "62915ee4-0c83-43c5-9e4b-a84acbcdf64c",
+        "name" : "widget-0019",
+        "type" : "staticLink",
+        "label" : "SR 11-7 Information",
+        "url" : "https://www.federalreserve.gov/supervisionreg/srletters/sr1107a1.pdf"
+      }, {
+        "uuid" : "f92157db-50e4-46f9-a857-486c476016e8",
+        "name" : "widget-0021",
+        "type" : "staticLink",
+        "label" : "E-23 Information",
+        "url" : "https://www.osfi-bsif.gc.ca/Eng/Docs/E23.pdf"
+      }, {
+        "uuid" : "94f407b7-31e4-46bf-a7ea-bbe7ce6bd997",
+        "name" : "widget-0010",
+        "type" : "staticLink",
+        "label" : "NYC Local Law 144",
+        "url" : "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-1.pdf"
+      } ]
+    }, {
+      "uuid" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad",
+      "name" : "My Tasks",
+      "type" : "myTasks",
+      "isLocked" : true,
+      "widgets" : [ ],
+      "dueSoonCutoff" : 2,
+      "dueDateCategoryColors" : {
+        "overdue" : "red",
+        "soon" : "yellow",
+        "later" : "green",
+        "none" : "neutral-light"
+      }
+    }, {
+      "uuid" : "a30af260-7f09-43b9-ad32-1b5d2496db8b",
+      "name" : "My Reg Data",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "e8ab4cff-4e0c-48d0-8aa2-1769a7b3b4f8",
+        "name" : "widget-0013",
+        "type" : "filterCount",
+        "objectTypeName" : "QuestionnaireAssessment",
+        "filterName" : "AI Regulatory Applicability Assessments"
+      } ]
+    }, {
+      "uuid" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4",
+      "name" : "Controls by Effectiveness",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "5fd6c0e7-f5d7-489d-a153-2d894fc60a86",
+        "name" : "widget-0011",
+        "type" : "chart",
+        "objectTypeName" : "SOXControl",
+        "chartType" : "doughnut",
+        "chartDataField" : "OPSS-Ctl:Operating Effectiveness",
+        "summaryType" : "COUNT"
+      }, {
+        "uuid" : "ed8520fb-e3a1-4744-8e3f-4d9045c4bbc3",
+        "name" : "widget-0012",
+        "type" : "chart",
+        "objectTypeName" : "SOXControl",
+        "chartType" : "bar",
+        "chartDataField" : "OPSS-Ctl:Design Effectiveness",
+        "summaryType" : "COUNT"
+      } ]
+    }, {
+      "uuid" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c",
+      "name" : "My Favorites",
+      "type" : "favoriteObjects",
+      "isLocked" : true,
+      "widgets" : [ ],
+      "column2Field" : "description"
+    }, {
+      "uuid" : "3958735c-abb5-4235-9356-228dd4dd1098",
+      "name" : "Compliance Plan Assessments",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "06f03919-6333-4062-b33e-57bc79b28d9b",
+        "name" : "widget-0007",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "My Assessable Compliance Plans"
+      }, {
+        "uuid" : "b350c55b-accd-40fa-901a-0135b98139ef",
+        "name" : "widget-0003",
+        "type" : "chart",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "My Assessable Compliance Plans",
+        "chartType" : "doughnut",
+        "chartDataField" : "watsonx-CompliancePlan:Compliance Assessment Status",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      }, {
+        "uuid" : "3460032d-8a90-463b-be46-e0ffe398031e",
+        "name" : "widget-0015",
+        "type" : "chart",
+        "objectTypeName" : "OblEval",
+        "filterName" : "Assessable",
+        "chartType" : "bar",
+        "chartDataField" : "watsonx-Obligation-Shared:Compliance Assessment Status",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      }, {
+        "uuid" : "52ed71f3-0153-4796-80f8-91241c6e3510",
+        "name" : "widget-0014",
+        "type" : "chart",
+        "objectTypeName" : "OblEval",
+        "filterName" : "Assessable",
+        "chartType" : "doughnut",
+        "chartDataField" : "watsonx-ObligationEval-Shared:Assessment Result",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      } ]
+    }, {
+      "uuid" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5",
+      "name" : "Compliance Outputs",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "f09bfb8b-f921-452c-9ee5-1070f73eabd8",
+        "name" : "widget-0020",
+        "type" : "filterCount",
+        "objectTypeName" : "OblEval",
+        "filterName" : "Assessment Not Met"
+      }, {
+        "uuid" : "c6d57d9e-337a-439a-8785-4cdaad0e171a",
+        "name" : "widget-0023",
+        "type" : "filterCount",
+        "objectTypeName" : "Register"
+      }, {
+        "uuid" : "227681f6-4561-49c7-ac87-89b7de0fb257",
+        "name" : "widget-0024",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "Compliance Plans with Not Met Obligations"
+      }, {
+        "uuid" : "4715c4c7-f581-4653-bd7e-dd75588c59b7",
+        "name" : "widget-0025",
+        "type" : "chart",
+        "objectTypeName" : "Register",
+        "chartType" : "doughnut",
+        "chartDataField" : "watsonx-Compliance:Compliance Position",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      }, {
+        "uuid" : "6c99785b-1b59-4339-8fec-0244e938b488",
+        "name" : "widget-0002",
+        "type" : "filterCount",
+        "objectTypeName" : "CompliancePlan",
+        "filterName" : "My Compliance Plans Not Met"
+      } ]
+    }, {
+      "uuid" : "3ef7606b-2c40-410e-be13-5ffae8bf1194",
+      "name" : "My Use Cases",
+      "type" : "custom",
+      "isLocked" : true,
+      "widgets" : [ {
+        "uuid" : "c7a5bb52-8879-490c-b484-08d6224290f2",
+        "name" : "widget-0004",
+        "type" : "chart",
+        "objectTypeName" : "Register",
+        "filterName" : "My Model Use Cases",
+        "chartType" : "doughnut",
+        "chartDataField" : "MRG-AIFacts-ModelUseCase:Status",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      }, {
+        "uuid" : "cc8bc97e-07fd-464d-8fe4-2372f77ab51f",
+        "name" : "widget-0000",
+        "type" : "chart",
+        "objectTypeName" : "Register",
+        "filterName" : "My Model Use Cases",
+        "chartType" : "doughnut",
+        "chartDataField" : "MRG-AIFacts-ModelUseCase:Risk Level",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      }, {
+        "uuid" : "b8b8294e-e678-41e4-8891-3288d7ce8dfc",
+        "name" : "widget-0001",
+        "type" : "chart",
+        "objectTypeName" : "Register",
+        "filterName" : "My Model Use Cases",
+        "chartType" : "doughnut",
+        "chartDataField" : "watsonx-Compliance:EU AI Risk Category",
+        "summaryType" : "COUNT",
+        "sortDirection" : "None"
+      } ]
+    } ],
+    "layouts" : {
+      "xxl" : [ {
+        "x" : 0,
+        "y" : 0,
+        "w" : 1,
+        "h" : 21,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 1,
+        "y" : 0,
+        "w" : 1,
+        "h" : 31,
+        "i" : "3ef7606b-2c40-410e-be13-5ffae8bf1194"
+      }, {
+        "x" : 2,
+        "y" : 0,
+        "w" : 1,
+        "h" : 32,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 3,
+        "y" : 0,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      }, {
+        "x" : 0,
+        "y" : 21,
+        "w" : 1,
+        "h" : 21,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 1,
+        "y" : 31,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 2,
+        "y" : 32,
+        "w" : 2,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 0,
+        "y" : 42,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      } ],
+      "xl" : [ {
+        "x" : 0,
+        "y" : 0,
+        "w" : 1,
+        "h" : 20,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 2,
+        "y" : 36,
+        "w" : 1,
+        "h" : 32,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 3,
+        "y" : 40,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      }, {
+        "x" : 3,
+        "y" : 17,
+        "w" : 1,
+        "h" : 21,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 1,
+        "y" : 0,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 0,
+        "y" : 20,
+        "w" : 2,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 2,
+        "y" : 68,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      }, {
+        "x" : 3,
+        "y" : 68,
+        "w" : 1,
+        "h" : 31,
+        "i" : "3ef7606b-2c40-410e-be13-5ffae8bf1194"
+      } ],
+      "lg" : [ {
+        "x" : 1,
+        "y" : 16,
+        "w" : 1,
+        "h" : 21,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 0,
+        "y" : 19,
+        "w" : 1,
+        "h" : 20,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 0,
+        "y" : 20,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 0,
+        "y" : 22,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      }, {
+        "x" : 1,
+        "y" : 22,
+        "w" : 1,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 0,
+        "y" : 25,
+        "w" : 1,
+        "h" : 32,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 1,
+        "y" : 25,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      }, {
+        "x" : 0,
+        "y" : 26,
+        "w" : 1,
+        "h" : 31,
+        "i" : "3ef7606b-2c40-410e-be13-5ffae8bf1194"
+      } ],
+      "md" : [ {
+        "x" : 1,
+        "y" : 6,
+        "w" : 1,
+        "h" : 21,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 0,
+        "y" : 9,
+        "w" : 1,
+        "h" : 20,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 0,
+        "y" : 10,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 0,
+        "y" : 12,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      }, {
+        "x" : 1,
+        "y" : 12,
+        "w" : 1,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 0,
+        "y" : 15,
+        "w" : 1,
+        "h" : 32,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 1,
+        "y" : 15,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      }, {
+        "x" : 0,
+        "y" : 16,
+        "w" : 1,
+        "h" : 31,
+        "i" : "3ef7606b-2c40-410e-be13-5ffae8bf1194"
+      } ],
+      "sm" : [ {
+        "x" : 0,
+        "y" : 13,
+        "w" : 1,
+        "h" : 21,
+        "i" : "eba0cab7-6bd2-4b8b-8864-2d0d66c2c774"
+      }, {
+        "x" : 0,
+        "y" : 18,
+        "w" : 1,
+        "h" : 20,
+        "i" : "113cd0fa-4b87-4ffe-91d1-97d64153bcad"
+      }, {
+        "x" : 0,
+        "y" : 20,
+        "w" : 1,
+        "h" : 11,
+        "i" : "a30af260-7f09-43b9-ad32-1b5d2496db8b"
+      }, {
+        "x" : 0,
+        "y" : 24,
+        "w" : 1,
+        "h" : 20,
+        "i" : "425bae3c-b1e7-4437-ae6c-919fc0c5b4b4"
+      }, {
+        "x" : 0,
+        "y" : 25,
+        "w" : 1,
+        "h" : 12,
+        "i" : "4a70a96e-abe0-40fe-ae7e-8bc22eeef55c"
+      }, {
+        "x" : 0,
+        "y" : 30,
+        "w" : 1,
+        "h" : 32,
+        "i" : "3958735c-abb5-4235-9356-228dd4dd1098"
+      }, {
+        "x" : 0,
+        "y" : 31,
+        "w" : 1,
+        "h" : 32,
+        "i" : "7aa96d2e-728f-4896-9d1d-beb64f7d45e5"
+      }, {
+        "x" : 0,
+        "y" : 32,
+        "w" : 1,
+        "h" : 31,
+        "i" : "3ef7606b-2c40-410e-be13-5ffae8bf1194"
+      } ]
+    }
+  }, {
+    "name" : "My Tasks",
+    "isLocked" : true,
+    "type" : "myTasks",
+    "uuid" : "eb61219e-4581-446c-9022-4c990c542368",
+    "panels" : [ ],
+    "layouts" : {
+      "xxl" : [ ],
+      "xl" : [ ],
+      "lg" : [ ],
+      "md" : [ ],
+      "sm" : [ ]
+    }
+  }, {
+    "name" : "Subscription Tasks",
+    "isLocked" : true,
+    "type" : "subscribed",
+    "uuid" : "6e675b5b-337d-4276-b1b2-f29faf50d58c",
+    "panels" : [ ],
+    "layouts" : {
+      "xxl" : [ ],
+      "xl" : [ ],
+      "lg" : [ ],
+      "md" : [ ],
+      "sm" : [ ]
+    }
+  }, {
+    "name" : "Oversight Tasks",
+    "isLocked" : true,
+    "type" : "oversight",
+    "uuid" : "b5911bf3-8f68-45d9-91bb-ba0e9b87139c",
+    "panels" : [ ],
+    "layouts" : {
+      "xxl" : [ ],
+      "xl" : [ ],
+      "lg" : [ ],
+      "md" : [ ],
+      "sm" : [ ]
+    }
+  } ]
+}]]>
+            </dashboardViewContent>
+        </dashboardView>
+    </dashboardViews>
+</openpagesConfiguration>

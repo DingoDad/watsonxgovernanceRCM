@@ -3,7 +3,7 @@
 
 <openpagesConfiguration xmlFormatVersion="1.31">
     <systemInformation name="opapp"
-                       retrievalDate="Tue Apr 22 12:29:09 EDT 2025"
+                       retrievalDate="Wed Apr 23 07:38:27 EDT 2025"
                        openpages="11.0.0.5.2 (Build: 9.0.0.5.2-18 2025/02/18 12:33:02)"
 
                        installDate="2025-02-05 16:28:41.0"
@@ -698,6 +698,256 @@
     "value" : {
       "evalType" : "calculation",
       "expression" : "if exists ([$All Evals - Not Determined - List$] ) then count([$All Evals - Not Determined - List$] ) else 0 endif"
+    }
+  } ]
+}]]>
+                </tbCalculationActionContent>
+                <tbCalculationActionProperties><![CDATA[null]]>
+                </tbCalculationActionProperties>
+                </tbCalculationAction>
+            </tbCalculationActions>
+        </tbCalculation>
+        <tbCalculation
+                    name="Use Case Compliance"
+                    description=""
+                    type="calculation"
+                    objectType="Register"
+                    enabled="true">
+            <tbCalculationCriteria><![CDATA[null]]>
+            </tbCalculationCriteria>
+            <tbCalculationActions>
+                <tbCalculationAction
+                        type="variable">
+                <tbCalculationActionContent><![CDATA[{
+  "name" : "All Evals - List",
+  "variableValue" : {
+    "evalType" : "objectField",
+    "objectType" : "OblEval",
+    "referenceType" : "child",
+    "referencePaths" : [ "Register/CompliancePlan/OblEval" ],
+    "condition" : {
+      "evalType" : "conditionGroup",
+      "logicalOperator" : "AND",
+      "conditions" : [ {
+        "evalType" : "relationalCondition",
+        "relationalOperator" : "equals",
+        "invertMatch" : false,
+        "leftValue" : {
+          "evalType" : "string",
+          "value" : "watsonx-ObligationEval-Shared:Assessable"
+        },
+        "rightValue" : {
+          "evalType" : "string",
+          "value" : "true"
+        }
+      } ]
+    },
+    "field" : "System Fields:Name"
+  }
+}]]>
+                </tbCalculationActionContent>
+                <tbCalculationActionProperties><![CDATA[null]]>
+                </tbCalculationActionProperties>
+                </tbCalculationAction>
+                <tbCalculationAction
+                        type="variable">
+                <tbCalculationActionContent><![CDATA[{
+  "name" : "All Evals - Met - List",
+  "variableValue" : {
+    "evalType" : "objectField",
+    "objectType" : "OblEval",
+    "referenceType" : "child",
+    "referencePaths" : [ "Register/CompliancePlan/OblEval" ],
+    "condition" : {
+      "evalType" : "conditionGroup",
+      "logicalOperator" : "AND",
+      "conditions" : [ {
+        "evalType" : "relationalCondition",
+        "relationalOperator" : "equals",
+        "invertMatch" : false,
+        "leftValue" : {
+          "evalType" : "string",
+          "value" : "watsonx-ObligationEval-Shared:Assessment Result"
+        },
+        "rightValue" : {
+          "evalType" : "string",
+          "value" : "Met"
+        }
+      }, {
+        "evalType" : "relationalCondition",
+        "relationalOperator" : "equals",
+        "invertMatch" : false,
+        "leftValue" : {
+          "evalType" : "string",
+          "value" : "watsonx-ObligationEval-Shared:Assessable"
+        },
+        "rightValue" : {
+          "evalType" : "string",
+          "value" : "true"
+        }
+      } ]
+    },
+    "field" : "System Fields:Name"
+  }
+}]]>
+                </tbCalculationActionContent>
+                <tbCalculationActionProperties><![CDATA[null]]>
+                </tbCalculationActionProperties>
+                </tbCalculationAction>
+                <tbCalculationAction
+                        type="variable">
+                <tbCalculationActionContent><![CDATA[{
+  "name" : "All Evals - Not Met - List",
+  "variableValue" : {
+    "evalType" : "objectField",
+    "objectType" : "OblEval",
+    "referenceType" : "child",
+    "referencePaths" : [ "Register/CompliancePlan/OblEval" ],
+    "condition" : {
+      "evalType" : "conditionGroup",
+      "logicalOperator" : "AND",
+      "conditions" : [ {
+        "evalType" : "relationalCondition",
+        "relationalOperator" : "equals",
+        "invertMatch" : false,
+        "leftValue" : {
+          "evalType" : "string",
+          "value" : "watsonx-ObligationEval-Shared:Assessable"
+        },
+        "rightValue" : {
+          "evalType" : "string",
+          "value" : "true"
+        }
+      }, {
+        "evalType" : "relationalCondition",
+        "relationalOperator" : "equals",
+        "invertMatch" : false,
+        "leftValue" : {
+          "evalType" : "string",
+          "value" : "watsonx-ObligationEval-Shared:Assessment Result"
+        },
+        "rightValue" : {
+          "evalType" : "string",
+          "value" : "Not Met"
+        }
+      } ]
+    },
+    "field" : "System Fields:Name"
+  }
+}]]>
+                </tbCalculationActionContent>
+                <tbCalculationActionProperties><![CDATA[null]]>
+                </tbCalculationActionProperties>
+                </tbCalculationAction>
+                <tbCalculationAction
+                        type="variable">
+                <tbCalculationActionContent><![CDATA[{
+  "name" : "All Evals - Not Determined - List",
+  "variableValue" : {
+    "evalType" : "objectField",
+    "objectType" : "OblEval",
+    "referenceType" : "child",
+    "referencePaths" : [ "Register/CompliancePlan/OblEval" ],
+    "condition" : {
+      "evalType" : "conditionGroup",
+      "logicalOperator" : "AND",
+      "conditions" : [ {
+        "evalType" : "relationalCondition",
+        "relationalOperator" : "equals",
+        "invertMatch" : false,
+        "leftValue" : {
+          "evalType" : "string",
+          "value" : "watsonx-ObligationEval-Shared:Assessable"
+        },
+        "rightValue" : {
+          "evalType" : "string",
+          "value" : "true"
+        }
+      }, {
+        "evalType" : "relationalCondition",
+        "relationalOperator" : "equals",
+        "invertMatch" : false,
+        "leftValue" : {
+          "evalType" : "string",
+          "value" : "watsonx-ObligationEval-Shared:Assessment Result"
+        },
+        "rightValue" : {
+          "evalType" : "string",
+          "value" : "Not Determined"
+        }
+      } ]
+    },
+    "field" : "System Fields:Name"
+  }
+}]]>
+                </tbCalculationActionContent>
+                <tbCalculationActionProperties><![CDATA[null]]>
+                </tbCalculationActionProperties>
+                </tbCalculationAction>
+                <tbCalculationAction
+                        type="variable">
+                <tbCalculationActionContent><![CDATA[{
+  "name" : "All Evals",
+  "variableValue" : {
+    "evalType" : "calculation",
+    "expression" : "if exists ([$All Evals - List$] ) then count([$All Evals - List$] ) else 0 endif"
+  }
+}]]>
+                </tbCalculationActionContent>
+                <tbCalculationActionProperties><![CDATA[null]]>
+                </tbCalculationActionProperties>
+                </tbCalculationAction>
+                <tbCalculationAction
+                        type="variable">
+                <tbCalculationActionContent><![CDATA[{
+  "name" : "All Evals Met",
+  "variableValue" : {
+    "evalType" : "calculation",
+    "expression" : "if exists ([$All Evals - Met - List$] ) then count([$All Evals - Met - List$] ) else 0 endif"
+  }
+}]]>
+                </tbCalculationActionContent>
+                <tbCalculationActionProperties><![CDATA[null]]>
+                </tbCalculationActionProperties>
+                </tbCalculationAction>
+                <tbCalculationAction
+                        type="variable">
+                <tbCalculationActionContent><![CDATA[{
+  "name" : "All Evals No Met",
+  "variableValue" : {
+    "evalType" : "calculation",
+    "expression" : "if exists ([$All Evals - Not Met - List$] ) then count([$All Evals - Not Met - List$] ) else 0 endif"
+  }
+}]]>
+                </tbCalculationActionContent>
+                <tbCalculationActionProperties><![CDATA[null]]>
+                </tbCalculationActionProperties>
+                </tbCalculationAction>
+                <tbCalculationAction
+                        type="variable">
+                <tbCalculationActionContent><![CDATA[{
+  "name" : "All Evals Not Determined",
+  "variableValue" : {
+    "evalType" : "calculation",
+    "expression" : "if exists ([$All Evals - Not Determined - List$] ) then count([$All Evals - Not Determined - List$] ) else 0 endif"
+  }
+}]]>
+                </tbCalculationActionContent>
+                <tbCalculationActionProperties><![CDATA[null]]>
+                </tbCalculationActionProperties>
+                </tbCalculationAction>
+                <tbCalculationAction
+                        type="setFields">
+                <tbCalculationActionContent><![CDATA[{
+  "name" : "Set Compliance",
+  "fieldSetters" : [ {
+    "field" : {
+      "evalType" : "objectField",
+      "field" : "watsonx-Compliance:Compliance Position"
+    },
+    "value" : {
+      "evalType" : "calculation",
+      "expression" : "if ([$All Evals$] == 0) then 'Not Determined'\nelif (([$All Evals$] > 0) and ([$All Evals No Met$] >0)) then 'Non Compliant'\nelse 'Compliant' endif"
     }
   } ]
 }]]>
