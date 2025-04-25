@@ -1,0 +1,29 @@
+#*******************************************************************************
+# Licensed Materials - Property of IBM
+#
+#
+# watsonx.governance RCM - Compliance Accelerator Loaders
+#
+# © Copyright IBM Corporation 2015 - 2025. All Rights Reserved.
+#
+# US Government Users Restricted Rights- Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
+#*******************************************************************************
+
+
+./wxgov.RCM-Schema
+./wxgov.RCM.object-relationships
+./wxgov.RCM-ObjectStrings
+./wxgov.RCM-Filters
+./wxgov.RCM-RCM-Master-Profile
+./wxgov.RCM-RCM-UseCaseOwner-Profile
+./wxgov.RCM-RCM-ComplianceOfficer-Profile
+./wxgov.RCM-Dashboards
+./wxgov.RCM-Dashboards-appStrings
+./wxgov.RCM-Views
+./wxgov.RCM-Views-Strings
+./wxgov.RCM-Calculations
+./wxgov.RCM-WorkflowDisable
+./wxgov.RCM-Workflows-New
+

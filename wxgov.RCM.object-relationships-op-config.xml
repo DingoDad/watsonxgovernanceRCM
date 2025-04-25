@@ -1,12 +1,15 @@
 <!--=============================================================================
-    Licensed Materials - Property of IBM
-
-   
-
-    © Copyright IBM Corporation 2017 - 2024. All Rights Reserved.
-
-    US Government Users Restricted Rights- Use, duplication or
-    disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+  #*******************************************************************************
+# Licensed Materials - Property of IBM
+#
+#
+# watsonx.governance RCM - Compliance Accelerator Loaders
+#
+# © Copyright IBM Corporation 2015 - 2025. All Rights Reserved.
+#
+# US Government Users Restricted Rights- Use, duplication or
+# disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+#
 ==============================================================================-->
 <openpagesConfiguration xmlFormatVersion="1.31">
 	<systemAdminMode enabled="true"/>
